@@ -3,47 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Licencia de Armas - Oficial</title>
+    <title>Simulador Licencia de Armas</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
-        :root { --verde: #1b5e20; --bg: #f0f2f5; }
-        body { font-family: sans-serif; background: var(--bg); margin: 0; padding: 10px; display: flex; justify-content: center; }
+        :root { --verde: #1b5e20; --bg: #f0f2f5; --texto: #333; }
+        body { font-family: sans-serif; background: var(--bg); margin: 0; padding: 10px; display: flex; justify-content: center; color: var(--texto); }
         .card { background: white; max-width: 500px; width: 100%; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
         h1 { color: var(--verde); text-align: center; border-bottom: 2px solid var(--verde); padding-bottom: 10px; font-size: 1.2rem; }
+        .menu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 15px; }
         .opcion { display: block; width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #ddd; border-radius: 8px; background: white; text-align: left; cursor: pointer; font-size: 0.95rem; }
         .correcta { background: #c8e6c9 !important; border-color: #4caf50 !important; color: #1b5e20; font-weight: bold; }
         .incorrecta { background: #ffcdd2 !important; border-color: #f44336 !important; color: #b71c1c; }
-        .btn { background: var(--verde); color: white; border: none; padding: 15px; width: 100%; border-radius: 8px; font-weight: bold; cursor: pointer; }
+        .btn { background: var(--verde); color: white; border: none; padding: 12px; border-radius: 8px; font-weight: bold; cursor: pointer; transition: 0.3s; }
+        .btn:hover { background: #2e7d32; }
+        .btn-tema { background: #eceff1; color: #455a64; font-size: 0.85rem; border: 1px solid #cfd8dc; }
+        .btn-examen { grid-column: span 2; background: #d32f2f; margin-bottom: 10px; font-size: 1rem; }
         .hidden { display: none; }
+        .header-test { display: flex; justify-content: space-between; font-size: 0.75rem; color: #888; font-weight: bold; margin-bottom: 10px; }
     </style>
 </head>
 <body>
 
 <div class="card">
-    <h1>🦅 EXAMEN LICENCIA DE ARMAS</h1>
+    <h1>🦅 LICENCIA DE ARMAS</h1>
     
-    <div id="pantalla-carga" style="text-align:center;">
-        <p id="estado">Leyendo base de datos...</p>
-        <button id="btn-comenzar" class="btn hidden" onclick="comenzar()">EMPEZAR TEST</button>
+    <div id="pantalla-carga">
+        <p id="estado" style="text-align:center">Cargando cuestionario...</p>
+        <div id="menu-temas" class="hidden">
+            <button class="btn btn-examen" onclick="iniciarModo('examen')">⚖️ EXAMEN OFICIAL (MIXTO)</button>
+            <p style="text-align:center; font-size: 0.8rem; font-weight: bold; color: #666; margin: 5px 0;">ESTUDIAR POR TEMAS:</p>
+            <div id="grid-botones" class="menu-grid"></div>
+        </div>
     </div>
 
     <div id="pantalla-test" class="hidden">
-        <p id="info" style="font-size: 0.75rem; color: #888; margin-bottom: 5px; font-weight: bold;"></p>
-        <p id="pregunta" style="font-weight: bold; font-size: 1rem; line-height: 1.4; color: #222;"></p>
+        <div class="header-test">
+            <span id="info-modo"></span>
+            <span id="info-progreso"></span>
+        </div>
+        <p id="pregunta" style="font-weight: bold; font-size: 1rem; line-height: 1.4;"></p>
         <div id="opciones"></div>
-        <button id="btn-next" class="btn hidden" style="margin-top:10px" onclick="siguiente()">SIGUIENTE</button>
+        <button id="btn-next" class="btn hidden" style="width:100%; margin-top:10px" onclick="siguiente()">SIGUIENTE PREGUNTA</button>
     </div>
 
     <div id="pantalla-final" class="hidden" style="text-align: center;">
         <h2 id="nota" style="font-size: 3rem; margin: 0;"></h2>
         <p id="texto-final" style="font-size: 1.5rem; font-weight: bold;"></p>
-        <button class="btn" onclick="location.reload()">REPETIR</button>
+        <button class="btn" style="width:100%" onclick="location.reload()">VOLVER AL MENÚ</button>
     </div>
 </div>
 
 <script>
-    let banco = [];
-    let examen = [];
+    let bancoTotal = [];
+    let preguntasFiltradas = [];
     let indice = 0;
     let aciertos = 0;
 
@@ -54,48 +66,94 @@
             skipEmptyLines: true,
             encoding: "ISO-8859-1",
             complete: function(res) {
-                const filas = res.data.slice(1); 
-                banco = filas.map(f => {
-                    const trim = (val) => val ? val.toString().trim() : "";
+                const filas = res.data.slice(1);
+                let ultimoTema = "1";
+
+                bancoTotal = filas.map(f => {
+                    let t = f[1] ? f[1].toString().trim() : "";
+                    if (t !== "") ultimoTema = t; // Si la celda Tema está vacía, usa el anterior
+                    
                     return {
-                        p: trim(f[2]), 
-                        a: trim(f[3]), 
-                        b: trim(f[4]), 
-                        c: trim(f[5]), 
-                        r: trim(f[6]).toUpperCase()
+                        tema: ultimoTema,
+                        p: f[2] ? f[2].trim() : "",
+                        a: f[3] ? f[3].trim() : "",
+                        b: f[4] ? f[4].trim() : "",
+                        c: f[5] ? f[5].trim() : "",
+                        r: f[6] ? f[6].trim().toUpperCase().replace(/[\)\.]/g, "") : ""
                     };
                 }).filter(f => f.p.length > 5);
 
-                if(banco.length > 0) {
-                    document.getElementById('estado').innerText = "✅ " + banco.length + " preguntas cargadas.";
-                    document.getElementById('btn-comenzar').classList.remove('hidden');
-                }
+                generarMenu();
             }
         });
     };
 
-    function comenzar() {
-        examen = banco.sort(() => 0.5 - Math.random()).slice(0, 20);
+    function generarMenu() {
+        document.getElementById('estado').classList.add('hidden');
+        const menu = document.getElementById('menu-temas');
+        const grid = document.getElementById('grid-botones');
+        menu.classList.remove('hidden');
+
+        // Obtener temas únicos
+        const temasUnicos = [...new Set(bancoTotal.map(q => q.tema))].sort((a,b) => a-b);
+        
+        temasUnicos.forEach(tema => {
+            const btn = document.createElement('button');
+            btn.className = 'btn btn-tema';
+            btn.innerText = `Tema ${tema}`;
+            btn.onclick = () => iniciarModo('tema', tema);
+            grid.appendChild(btn);
+        });
+    }
+
+    function iniciarModo(modo, valor) {
+        indice = 0;
+        aciertos = 0;
+        
+        if (modo === 'tema') {
+            document.getElementById('info-modo').innerText = "TEMA " + valor;
+            preguntasFiltradas = bancoTotal.filter(q => q.tema == valor).sort(() => 0.5 - Math.random());
+        } else {
+            document.getElementById('info-modo').innerText = "EXAMEN OFICIAL";
+            preguntasFiltradas = generarExamenOficial();
+        }
+
         document.getElementById('pantalla-carga').classList.add('hidden');
         document.getElementById('pantalla-test').classList.remove('hidden');
         mostrar();
     }
 
+    function generarExamenOficial() {
+        let examen = [];
+        const temas = [...new Set(bancoTotal.map(q => q.tema))];
+        
+        // Reparto aproximado Guardia Civil (3 de cada tema, ajustes en los últimos)
+        temas.forEach(t => {
+            let cant = (t <= 5) ? 3 : 2; 
+            let deTema = bancoTotal.filter(q => q.tema == t).sort(() => 0.5 - Math.random()).slice(0, cant);
+            examen.push(...deTema);
+        });
+
+        // Si faltan para 20, rellenamos con aleatorias
+        while(examen.length < 20) {
+            let azar = bancoTotal[Math.floor(Math.random()*bancoTotal.length)];
+            if(!examen.includes(azar)) examen.push(azar);
+        }
+        
+        return examen.slice(0, 20).sort(() => 0.5 - Math.random());
+    }
+
     function mostrar() {
-        let q = examen[indice];
-        document.getElementById('info').innerText = "PREGUNTA " + (indice + 1) + " DE 20";
+        let q = preguntasFiltradas[indice];
+        document.getElementById('info-progreso').innerText = (indice + 1) + " / " + preguntasFiltradas.length;
         document.getElementById('pregunta').innerText = q.p;
         document.getElementById('btn-next').classList.add('hidden');
         
+        const limpiar = (t) => t.replace(/^[A-C][\)\.\-\s]{1,2}/i, "");
         let html = "";
-        
-        // REGLA CORREGIDA: Solo borra si es "A)" o "A." pero no si es "Armas..."
-        const limpiarRespuesta = (t) => t.replace(/^[A-C][\)\.\-\s]{1,2}/i, "");
-        
-        html += `<button class="opcion" onclick="validar(this, 'A', '${q.r}')">A) ${limpiarRespuesta(q.a)}</button>`;
-        html += `<button class="opcion" onclick="validar(this, 'B', '${q.r}')">B) ${limpiarRespuesta(q.b)}</button>`;
-        html += `<button class="opcion" onclick="validar(this, 'C', '${q.r}')">C) ${limpiarRespuesta(q.c)}</button>`;
-        
+        [['A', q.a], ['B', q.b], ['C', q.c]].forEach(([letra, texto]) => {
+            html += `<button class="opcion" onclick="validar(this, '${letra}', '${q.r}')">${letra}) ${limpiar(texto)}</button>`;
+        });
         document.getElementById('opciones').innerHTML = html;
     }
 
@@ -103,16 +161,13 @@
         let buttons = document.querySelectorAll('.opcion');
         buttons.forEach(b => b.disabled = true);
         
-        // Normalizar la respuesta correcta (por si en el excel pone "A)" o solo "A")
-        let limpiaCorrecta = correcta.replace(/[\)\.]/g, "").trim();
-
-        if(elegida === limpiaCorrecta) {
+        if(elegida === correcta) {
             btn.classList.add('correcta');
             aciertos++;
         } else {
             btn.classList.add('incorrecta');
             buttons.forEach(b => {
-                if(b.innerText.startsWith(limpiaCorrecta + ")")) b.classList.add('correcta');
+                if(b.innerText.startsWith(correcta + ")")) b.classList.add('correcta');
             });
         }
         document.getElementById('btn-next').classList.remove('hidden');
@@ -120,14 +175,22 @@
 
     function siguiente() {
         indice++;
-        if(indice < 20) mostrar();
-        else {
-            document.getElementById('pantalla-test').classList.add('hidden');
-            document.getElementById('pantalla-final').classList.remove('hidden');
-            document.getElementById('nota').innerText = aciertos + " / 20";
-            const tf = document.getElementById('texto-final');
+        if(indice < preguntasFiltradas.length) mostrar();
+        else finalizar();
+    }
+
+    function finalizar() {
+        document.getElementById('pantalla-test').classList.add('hidden');
+        document.getElementById('pantalla-final').classList.remove('hidden');
+        document.getElementById('nota').innerText = aciertos + " / " + preguntasFiltradas.length;
+        const p = (aciertos / preguntasFiltradas.length) * 100;
+        const tf = document.getElementById('texto-final');
+        if (preguntasFiltradas.length === 20) {
             tf.innerText = aciertos >= 16 ? "¡APTO!" : "NO APTO";
             tf.style.color = aciertos >= 16 ? "green" : "red";
+        } else {
+            tf.innerText = p >= 80 ? "¡MUY BIEN!" : "SIGUE ESTUDIANDO";
+            tf.style.color = p >= 80 ? "green" : "orange";
         }
     }
 </script>
