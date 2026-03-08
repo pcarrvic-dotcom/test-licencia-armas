@@ -3,42 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Licencia de Armas</title>
+    <title>Test Licencia de Armas - Oficial</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
         :root { --verde: #1b5e20; --bg: #f0f2f5; }
-        body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); margin: 0; padding: 15px; display: flex; justify-content: center; }
-        .card { background: white; max-width: 500px; width: 100%; padding: 25px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-        h1 { color: var(--verde); text-align: center; font-size: 1.4rem; border-bottom: 2px solid var(--verde); padding-bottom: 10px; }
-        .opcion { display: block; width: 100%; padding: 15px; margin: 10px 0; border: 1px solid #ddd; border-radius: 10px; background: white; text-align: left; cursor: pointer; font-size: 1rem; }
+        body { font-family: sans-serif; background: var(--bg); margin: 0; padding: 10px; display: flex; justify-content: center; }
+        .card { background: white; max-width: 500px; width: 100%; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h1 { color: var(--verde); text-align: center; border-bottom: 2px solid var(--verde); padding-bottom: 10px; font-size: 1.2rem; }
+        .opcion { display: block; width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #ddd; border-radius: 8px; background: white; text-align: left; cursor: pointer; font-size: 0.95rem; }
         .correcta { background: #c8e6c9 !important; border-color: #4caf50 !important; color: #1b5e20; font-weight: bold; }
         .incorrecta { background: #ffcdd2 !important; border-color: #f44336 !important; color: #b71c1c; }
-        .btn { background: var(--verde); color: white; border: none; padding: 16px; width: 100%; border-radius: 10px; font-weight: bold; cursor: pointer; font-size: 1.1rem; }
+        .btn { background: var(--verde); color: white; border: none; padding: 15px; width: 100%; border-radius: 8px; font-weight: bold; cursor: pointer; }
         .hidden { display: none; }
-        #estado { text-align: center; color: #666; font-style: italic; }
+        #debug-info { font-size: 0.7rem; color: #999; margin-top: 15px; text-align: center; }
     </style>
 </head>
 <body>
 
 <div class="card">
-    <h1>🦅 TEST LICENCIA DE ARMAS</h1>
+    <h1>🦅 EXAMEN LICENCIA DE ARMAS</h1>
     
-    <div id="pantalla-carga">
-        <p id="estado">Cargando cuestionario oficial...</p>
-        <button id="btn-comenzar" class="btn hidden" onclick="comenzar()">EMPEZAR EXAMEN (20 PREG.)</button>
+    <div id="pantalla-carga" style="text-align:center;">
+        <p id="estado">Leyendo base de datos...</p>
+        <button id="btn-comenzar" class="btn hidden" onclick="comenzar()">EMPEZAR TEST</button>
+        <div id="debug-info"></div>
     </div>
 
     <div id="pantalla-test" class="hidden">
-        <div id="info" style="font-size: 0.8rem; color: #888; font-weight: bold; margin-bottom: 5px;"></div>
-        <p id="pregunta" style="font-weight: bold; font-size: 1.1rem; line-height: 1.4; color: #333;"></p>
+        <p id="pregunta" style="font-weight: bold; font-size: 1rem; line-height: 1.4;"></p>
         <div id="opciones"></div>
-        <button id="btn-next" class="btn hidden" style="margin-top:10px" onclick="siguiente()">SIGUIENTE PREGUNTA</button>
+        <button id="btn-next" class="btn hidden" style="margin-top:10px" onclick="siguiente()">SIGUIENTE</button>
     </div>
 
     <div id="pantalla-final" class="hidden" style="text-align: center;">
-        <h2 id="resultado-txt"></h2>
-        <div id="nota" style="font-size: 4rem; font-weight: bold; margin-bottom: 15px;"></div>
-        <button class="btn" onclick="location.reload()">REPETIR TEST</button>
+        <h2 id="nota" style="font-size: 3rem; margin: 0;"></h2>
+        <p id="texto-final"></p>
+        <button class="btn" onclick="location.reload()">REPETIR</button>
     </div>
 </div>
 
@@ -48,42 +48,45 @@
     let indice = 0;
     let aciertos = 0;
 
-    // Función de carga mejorada para GitHub
-    function cargarDatos() {
+    // Función para arreglar textos de Excel (tildes y eñes)
+    function decodificar(texto) {
+        if (!texto) return "";
+        try {
+            return decodeURIComponent(escape(texto));
+        } catch (e) {
+            return texto; // Si falla, devuelve el original
+        }
+    }
+
+    window.onload = function() {
         Papa.parse("datos.csv", {
             download: true,
-            header: true,
+            header: false, // Cambiado a falso para no depender de los nombres de las columnas
             skipEmptyLines: true,
-            encoding: "latin1",
             complete: function(res) {
-                let ultimoTema = "1";
-                banco = res.data.map(f => {
-                    if (f.Tema && f.Tema.trim() !== "") ultimoTema = f.Tema.trim();
+                // Empezamos desde la fila 1 para saltar el encabezado
+                const filas = res.data.slice(1); 
+                
+                banco = filas.map(f => {
+                    // Mapeo por posición de columna: 2=Pregunta, 3=A, 4=B, 5=C, 6=Correcta
                     return {
-                        tema: ultimoTema,
-                        p: (f.Pregunta || "").trim(),
-                        a: (f["Opción A"] || "").trim(),
-                        b: (f["Opción B"] || "").trim(),
-                        c: (f["Opción C"] || "").trim(),
-                        r: (f["Respuesta Correcta"] || "").trim().toUpperCase()
+                        p: f[2] || "",
+                        a: f[3] || "",
+                        b: f[4] || "",
+                        c: f[5] || "",
+                        r: (f[6] || "").trim().toUpperCase()
                     };
                 }).filter(f => f.p.length > 5);
 
-                if (banco.length > 0) {
+                if(banco.length > 0) {
                     document.getElementById('estado').innerText = "✅ " + banco.length + " preguntas listas.";
                     document.getElementById('btn-comenzar').classList.remove('hidden');
                 } else {
-                    document.getElementById('estado').innerText = "Error: No se han podido leer las preguntas de datos.csv";
+                    document.getElementById('estado').innerText = "❌ Error: El archivo no tiene el formato correcto.";
                 }
-            },
-            error: function() {
-                document.getElementById('estado').innerText = "Intentando conectar con el archivo...";
-                setTimeout(cargarDatos, 2000); // Reintenta si falla
             }
         });
-    }
-
-    window.onload = cargarDatos;
+    };
 
     function comenzar() {
         examen = banco.sort(() => 0.5 - Math.random()).slice(0, 20);
@@ -94,15 +97,17 @@
 
     function mostrar() {
         let q = examen[indice];
-        document.getElementById('info').innerText = "PREGUNTA " + (indice + 1) + " DE 20";
-        document.getElementById('pregunta').innerText = q.p;
+        document.getElementById('pregunta').innerText = (indice + 1) + ". " + q.p;
         document.getElementById('btn-next').classList.add('hidden');
         
         let html = "";
-        ['A','B','C'].forEach(l => {
-            let texto = q[l.toLowerCase()].replace(/^[A-C][\)\.\s-]*/i, "");
-            html += `<button class="opcion" onclick="validar(this, '${l}', '${q.r}')">${l}) ${texto}</button>`;
-        });
+        // Quitamos prefijos tipo A) si ya existen
+        const limpiarRespuesta = (t) => t.replace(/^[A-C][\)\.\s-]*/i, "");
+        
+        html += `<button class="opcion" onclick="validar(this, 'A', '${q.r}')">A) ${limpiarRespuesta(q.a)}</button>`;
+        html += `<button class="opcion" onclick="validar(this, 'B', '${q.r}')">B) ${limpiarRespuesta(q.b)}</button>`;
+        html += `<button class="opcion" onclick="validar(this, 'C', '${q.r}')">C) ${limpiarRespuesta(q.c)}</button>`;
+        
         document.getElementById('opciones').innerHTML = html;
     }
 
@@ -110,7 +115,8 @@
         let buttons = document.querySelectorAll('.opcion');
         buttons.forEach(b => b.disabled = true);
         
-        if(elegida === correcta) {
+        // Comprobamos si la respuesta es correcta
+        if(elegida === correcta || (elegida + ")") === correcta) {
             btn.classList.add('correcta');
             aciertos++;
         } else {
@@ -129,11 +135,9 @@
             document.getElementById('pantalla-test').classList.add('hidden');
             document.getElementById('pantalla-final').classList.remove('hidden');
             document.getElementById('nota').innerText = aciertos + " / 20";
-            document.getElementById('resultado-txt').innerText = aciertos >= 16 ? "¡APTO!" : "NO APTO";
-            document.getElementById('resultado-txt').style.color = aciertos >= 16 ? "green" : "red";
+            document.getElementById('texto-final').innerText = aciertos >= 16 ? "APTO" : "NO APTO";
         }
     }
 </script>
 </body>
 </html>
-
