@@ -15,7 +15,6 @@
         .incorrecta { background: #ffcdd2 !important; border-color: #f44336 !important; color: #b71c1c; }
         .btn { background: var(--verde); color: white; border: none; padding: 15px; width: 100%; border-radius: 8px; font-weight: bold; cursor: pointer; }
         .hidden { display: none; }
-        #debug-info { font-size: 0.7rem; color: #999; margin-top: 15px; text-align: center; }
     </style>
 </head>
 <body>
@@ -26,18 +25,18 @@
     <div id="pantalla-carga" style="text-align:center;">
         <p id="estado">Leyendo base de datos...</p>
         <button id="btn-comenzar" class="btn hidden" onclick="comenzar()">EMPEZAR TEST</button>
-        <div id="debug-info"></div>
     </div>
 
     <div id="pantalla-test" class="hidden">
-        <p id="pregunta" style="font-weight: bold; font-size: 1rem; line-height: 1.4;"></p>
+        <p id="info" style="font-size: 0.75rem; color: #888; margin-bottom: 5px; font-weight: bold;"></p>
+        <p id="pregunta" style="font-weight: bold; font-size: 1rem; line-height: 1.4; color: #222;"></p>
         <div id="opciones"></div>
         <button id="btn-next" class="btn hidden" style="margin-top:10px" onclick="siguiente()">SIGUIENTE</button>
     </div>
 
     <div id="pantalla-final" class="hidden" style="text-align: center;">
         <h2 id="nota" style="font-size: 3rem; margin: 0;"></h2>
-        <p id="texto-final"></p>
+        <p id="texto-final" style="font-size: 1.5rem; font-weight: bold;"></p>
         <button class="btn" onclick="location.reload()">REPETIR</button>
     </div>
 </div>
@@ -53,36 +52,29 @@
             download: true,
             header: false,
             skipEmptyLines: true,
-            encoding: "ISO-8859-1", // ESTA LÍNEA ES LA QUE ARREGLA LAS TILDES
+            encoding: "ISO-8859-1",
             complete: function(res) {
-                // Saltamos la fila 0 (encabezados)
                 const filas = res.data.slice(1); 
-                
                 banco = filas.map(f => {
-                    // Limpieza básica de espacios
                     const trim = (val) => val ? val.toString().trim() : "";
-                    
                     return {
-                        p: trim(f[2]), // Columna 3 (Pregunta)
-                        a: trim(f[3]), // Columna 4 (Opción A)
-                        b: trim(f[4]), // Columna 5 (Opción B)
-                        c: trim(f[5]), // Columna 6 (Opción C)
-                        r: trim(f[6]).toUpperCase() // Columna 7 (Correcta)
+                        p: trim(f[2]), 
+                        a: trim(f[3]), 
+                        b: trim(f[4]), 
+                        c: trim(f[5]), 
+                        r: trim(f[6]).toUpperCase()
                     };
                 }).filter(f => f.p.length > 5);
 
                 if(banco.length > 0) {
-                    document.getElementById('estado').innerText = "✅ " + banco.length + " preguntas listas.";
+                    document.getElementById('estado').innerText = "✅ " + banco.length + " preguntas cargadas.";
                     document.getElementById('btn-comenzar').classList.remove('hidden');
-                } else {
-                    document.getElementById('estado').innerText = "❌ Error: Revisa el archivo datos.csv";
                 }
             }
         });
     };
 
     function comenzar() {
-        // Mezclar y elegir 20
         examen = banco.sort(() => 0.5 - Math.random()).slice(0, 20);
         document.getElementById('pantalla-carga').classList.add('hidden');
         document.getElementById('pantalla-test').classList.remove('hidden');
@@ -91,13 +83,15 @@
 
     function mostrar() {
         let q = examen[indice];
-        document.getElementById('pregunta').innerText = (indice + 1) + ". " + q.p;
+        document.getElementById('info').innerText = "PREGUNTA " + (indice + 1) + " DE 20";
+        document.getElementById('pregunta').innerText = q.p;
         document.getElementById('btn-next').classList.add('hidden');
         
         let html = "";
-        const limpiarRespuesta = (t) => t.replace(/^[A-C][\)\.\s-]*/i, "");
         
-        // Generamos los botones de opciones
+        // REGLA CORREGIDA: Solo borra si es "A)" o "A." pero no si es "Armas..."
+        const limpiarRespuesta = (t) => t.replace(/^[A-C][\)\.\-\s]{1,2}/i, "");
+        
         html += `<button class="opcion" onclick="validar(this, 'A', '${q.r}')">A) ${limpiarRespuesta(q.a)}</button>`;
         html += `<button class="opcion" onclick="validar(this, 'B', '${q.r}')">B) ${limpiarRespuesta(q.b)}</button>`;
         html += `<button class="opcion" onclick="validar(this, 'C', '${q.r}')">C) ${limpiarRespuesta(q.c)}</button>`;
@@ -109,17 +103,16 @@
         let buttons = document.querySelectorAll('.opcion');
         buttons.forEach(b => b.disabled = true);
         
-        // Comprobar si es correcta (acepta 'A' o 'A)')
-        if(elegida === correcta || (elegida + ")") === correcta) {
+        // Normalizar la respuesta correcta (por si en el excel pone "A)" o solo "A")
+        let limpiaCorrecta = correcta.replace(/[\)\.]/g, "").trim();
+
+        if(elegida === limpiaCorrecta) {
             btn.classList.add('correcta');
             aciertos++;
         } else {
             btn.classList.add('incorrecta');
             buttons.forEach(b => {
-                // Marca la correcta en verde para que aprendas
-                if(b.innerText.startsWith(correcta + ")") || b.innerText.startsWith(correcta)) {
-                    b.classList.add('correcta');
-                }
+                if(b.innerText.startsWith(limpiaCorrecta + ")")) b.classList.add('correcta');
             });
         }
         document.getElementById('btn-next').classList.remove('hidden');
@@ -127,15 +120,14 @@
 
     function siguiente() {
         indice++;
-        if(indice < 20) {
-            mostrar();
-        } else {
+        if(indice < 20) mostrar();
+        else {
             document.getElementById('pantalla-test').classList.add('hidden');
             document.getElementById('pantalla-final').classList.remove('hidden');
             document.getElementById('nota').innerText = aciertos + " / 20";
-            document.getElementById('texto-final').innerText = aciertos >= 16 ? "¡APTO!" : "NO APTO";
-            document.getElementById('texto-final').style.color = aciertos >= 16 ? "green" : "red";
-            document.getElementById('texto-final').style.fontWeight = "bold";
+            const tf = document.getElementById('texto-final');
+            tf.innerText = aciertos >= 16 ? "¡APTO!" : "NO APTO";
+            tf.style.color = aciertos >= 16 ? "green" : "red";
         }
     }
 </script>
