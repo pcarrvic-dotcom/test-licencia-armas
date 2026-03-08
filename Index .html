@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Guardia Civil - Oficial</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <style>
+        :root { --verde: #1b5e20; --bg: #f0f2f5; }
+        body { font-family: sans-serif; background: var(--bg); margin: 0; padding: 10px; display: flex; justify-content: center; }
+        .container { background: white; max-width: 500px; width: 100%; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        h1 { color: var(--verde); text-align: center; font-size: 1.2rem; border-bottom: 2px solid var(--verde); padding-bottom: 10px; }
+        .box { text-align: center; padding: 20px; border: 2px dashed #ccc; border-radius: 8px; }
+        .pregunta { font-weight: 700; font-size: 1.05rem; margin-bottom: 15px; line-height: 1.4; color: #1a1a1a; }
+        .opcion { display: block; width: 100%; padding: 14px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 8px; background: #fff; text-align: left; cursor: pointer; font-size: 0.95rem; }
+        .correcta { background: #e8f5e9 !important; border-color: #4caf50 !important; color: #2e7d32; font-weight: bold; }
+        .incorrecta { background: #ffebee !important; border-color: #f44336 !important; color: #c62828; }
+        .btn { background: var(--verde); color: white; border: none; padding: 15px; border-radius: 8px; cursor: pointer; width: 100%; font-weight: bold; margin-top: 10px; }
+        .hidden { display: none; }
+        .meta { font-size: 0.75rem; color: #666; font-weight: bold; margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>SIMULADOR EXAMEN ARMAS</h1>
+
+    <div id="pantalla-carga" class="box">
+        <p>Selecciona tu archivo <b>CSV</b></p>
+        <input type="file" id="csv-input" accept=".csv">
+        <button id="btn-ready" class="btn hidden" onclick="prepararExamen()">EMPEZAR TEST</button>
+    </div>
+
+    <div id="pantalla-quiz" class="hidden">
+        <div id="meta" class="meta"></div>
+        <div id="enunciado" class="pregunta"></div>
+        <div id="opciones"></div>
+        <button id="btn-next" class="btn hidden" onclick="renderizarPregunta()">SIGUIENTE PREGUNTA</button>
+    </div>
+
+    <div id="pantalla-final" class="hidden" style="text-align:center">
+        <h2>Resultado</h2>
+        <div id="nota" style="font-size: 3rem; font-weight: bold;"></div>
+        <button class="btn" onclick="location.reload()">REPETIR</button>
+    </div>
+</div>
+
+<script>
+    let banco = [];
+    let examen = [];
+    let actual = 0;
+    let aciertos = 0;
+
+    document.getElementById('csv-input').addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if(!file) return;
+        
+        // Leemos con encoding ISO-8859-1 para arreglar tildes de Excel España
+        Papa.parse(file, {
+            header: true,
+            skipEmptyLines: true,
+            encoding: "ISO-8859-1", 
+            complete: function(res) {
+                let ultimoTema = "1";
+                banco = res.data.map(fila => {
+                    // Limpieza de nombres de columnas por si tienen espacios
+                    let p = fila["Pregunta"] || fila["PREGUNTA"] || "";
+                    let ra = fila["Opción A"] || fila["OPCIÓN A"] || fila["Opcion A"] || "";
+                    let rb = fila["Opción B"] || fila["OPCIÓN B"] || fila["Opcion B"] || "";
+                    let rc = fila["Opción C"] || fila["OPCIÓN C"] || fila["Opcion C"] || "";
+                    let respc = fila["Respuesta Correcta"] || fila["RESPUESTA CORRECTA"] || "";
+
+                    if (fila.Tema && fila.Tema.trim() !== "") ultimoTema = fila.Tema.trim();
+                    
+                    return {
+                        tema: ultimoTema,
+                        p: p.trim(),
+                        a: ra.trim(),
+                        b: rb.trim(),
+                        c: rc.trim(),
+                        r: respc.trim().toUpperCase()
+                    };
+                }).filter(f => f.p !== "");
+                
+                document.getElementById('btn-ready').classList.remove('hidden');
+            }
+        });
+    });
+
+    function prepararExamen() {
+        const pick = (tema, n) => {
+            let filtradas = banco.filter(f => f.tema == tema);
+            if(filtradas.length === 0) return [];
+            return filtradas.sort(() => 0.5 - Math.random()).slice(0, n);
+        };
+
+        examen = [
+            ...pick("1", 4), ...pick("2", 3), ...pick("3", 3),
+            ...pick("4", 4), ...pick("5", 3), ...pick("6", 3)
+        ];
+
+        if(examen.length < 20) {
+            let extra = banco.sort(() => 0.5 - Math.random()).slice(0, 20 - examen.length);
+            examen = [...examen, ...extra];
+        }
+
+        document.getElementById('pantalla-carga').classList.add('hidden');
+        document.getElementById('pantalla-quiz').classList.remove('hidden');
+        renderizarPregunta();
+    }
+
+    function renderizarPregunta() {
+        if(actual >= 20) return finalizar();
+        
+        const q = examen[actual];
+        document.getElementById('meta').innerText = `Pregunta ${actual + 1}/20 - TEMA ${q.tema}`;
+        document.getElementById('enunciado').innerText = q.p;
+        document.getElementById('btn-next').classList.add('hidden');
+        
+        const ops = document.getElementById('opciones');
+        ops.innerHTML = '';
+
+        ['A', 'B', 'C'].forEach(letra => {
+            const btn = document.createElement('button');
+            btn.className = 'opcion';
+            let texto = q[letra.toLowerCase()];
+            btn.innerText = letra + ") " + texto.replace(/^[A-C]\)\s*/i, "").replace(/^[A-C]\.\-\s*/i, "");
+            btn.onclick = () => validar(btn, letra, q.r);
+            ops.appendChild(btn);
+        });
+    }
+
+    function validar(btn, elegida, correcta) {
+        const btns = document.querySelectorAll('.opcion');
+        btns.forEach(b => b.disabled = true);
+
+        if(elegida === correcta) {
+            btn.classList.add('correcta');
+            aciertos++;
+        } else {
+            btn.classList.add('incorrecta');
+            btns.forEach(b => {
+                if(b.innerText.startsWith(correcta + ")")) b.classList.add('correcta');
+            });
+        }
+        actual++;
+        document.getElementById('btn-next').classList.remove('hidden');
+    }
+
+    function finalizar() {
+        document.getElementById('pantalla-quiz').classList.add('hidden');
+        document.getElementById('pantalla-final').classList.remove('hidden');
+        document.getElementById('nota').innerText = aciertos + "/20";
+    }
+</script>
+</body>
+</html>
