@@ -48,33 +48,26 @@
     let indice = 0;
     let aciertos = 0;
 
-    // Función para arreglar textos de Excel (tildes y eñes)
-    function decodificar(texto) {
-        if (!texto) return "";
-        try {
-            return decodeURIComponent(escape(texto));
-        } catch (e) {
-            return texto; // Si falla, devuelve el original
-        }
-    }
-
     window.onload = function() {
         Papa.parse("datos.csv", {
             download: true,
-            header: false, // Cambiado a falso para no depender de los nombres de las columnas
+            header: false,
             skipEmptyLines: true,
+            encoding: "ISO-8859-1", // ESTA LÍNEA ES LA QUE ARREGLA LAS TILDES
             complete: function(res) {
-                // Empezamos desde la fila 1 para saltar el encabezado
+                // Saltamos la fila 0 (encabezados)
                 const filas = res.data.slice(1); 
                 
                 banco = filas.map(f => {
-                    // Mapeo por posición de columna: 2=Pregunta, 3=A, 4=B, 5=C, 6=Correcta
+                    // Limpieza básica de espacios
+                    const trim = (val) => val ? val.toString().trim() : "";
+                    
                     return {
-                        p: f[2] || "",
-                        a: f[3] || "",
-                        b: f[4] || "",
-                        c: f[5] || "",
-                        r: (f[6] || "").trim().toUpperCase()
+                        p: trim(f[2]), // Columna 3 (Pregunta)
+                        a: trim(f[3]), // Columna 4 (Opción A)
+                        b: trim(f[4]), // Columna 5 (Opción B)
+                        c: trim(f[5]), // Columna 6 (Opción C)
+                        r: trim(f[6]).toUpperCase() // Columna 7 (Correcta)
                     };
                 }).filter(f => f.p.length > 5);
 
@@ -82,13 +75,14 @@
                     document.getElementById('estado').innerText = "✅ " + banco.length + " preguntas listas.";
                     document.getElementById('btn-comenzar').classList.remove('hidden');
                 } else {
-                    document.getElementById('estado').innerText = "❌ Error: El archivo no tiene el formato correcto.";
+                    document.getElementById('estado').innerText = "❌ Error: Revisa el archivo datos.csv";
                 }
             }
         });
     };
 
     function comenzar() {
+        // Mezclar y elegir 20
         examen = banco.sort(() => 0.5 - Math.random()).slice(0, 20);
         document.getElementById('pantalla-carga').classList.add('hidden');
         document.getElementById('pantalla-test').classList.remove('hidden');
@@ -101,9 +95,9 @@
         document.getElementById('btn-next').classList.add('hidden');
         
         let html = "";
-        // Quitamos prefijos tipo A) si ya existen
         const limpiarRespuesta = (t) => t.replace(/^[A-C][\)\.\s-]*/i, "");
         
+        // Generamos los botones de opciones
         html += `<button class="opcion" onclick="validar(this, 'A', '${q.r}')">A) ${limpiarRespuesta(q.a)}</button>`;
         html += `<button class="opcion" onclick="validar(this, 'B', '${q.r}')">B) ${limpiarRespuesta(q.b)}</button>`;
         html += `<button class="opcion" onclick="validar(this, 'C', '${q.r}')">C) ${limpiarRespuesta(q.c)}</button>`;
@@ -115,14 +109,17 @@
         let buttons = document.querySelectorAll('.opcion');
         buttons.forEach(b => b.disabled = true);
         
-        // Comprobamos si la respuesta es correcta
+        // Comprobar si es correcta (acepta 'A' o 'A)')
         if(elegida === correcta || (elegida + ")") === correcta) {
             btn.classList.add('correcta');
             aciertos++;
         } else {
             btn.classList.add('incorrecta');
             buttons.forEach(b => {
-                if(b.innerText.startsWith(correcta + ")")) b.classList.add('correcta');
+                // Marca la correcta en verde para que aprendas
+                if(b.innerText.startsWith(correcta + ")") || b.innerText.startsWith(correcta)) {
+                    b.classList.add('correcta');
+                }
             });
         }
         document.getElementById('btn-next').classList.remove('hidden');
@@ -130,12 +127,15 @@
 
     function siguiente() {
         indice++;
-        if(indice < 20) mostrar();
-        else {
+        if(indice < 20) {
+            mostrar();
+        } else {
             document.getElementById('pantalla-test').classList.add('hidden');
             document.getElementById('pantalla-final').classList.remove('hidden');
             document.getElementById('nota').innerText = aciertos + " / 20";
-            document.getElementById('texto-final').innerText = aciertos >= 16 ? "APTO" : "NO APTO";
+            document.getElementById('texto-final').innerText = aciertos >= 16 ? "¡APTO!" : "NO APTO";
+            document.getElementById('texto-final').style.color = aciertos >= 16 ? "green" : "red";
+            document.getElementById('texto-final').style.fontWeight = "bold";
         }
     }
 </script>
