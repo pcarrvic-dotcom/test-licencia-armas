@@ -11,7 +11,7 @@
 10;;¿Qué pieza o piezas protege el guardamonte?.;La biela y el fiador. ;El disparador. ;Es macizo. ;B
 11;;¿Qué misión tiene el muelle del cargador de un rifle?;Mantener presión en los cartuchos. ;Expulsar la vaina cuando se produce el disparo ;Elevar el cartucho y colocarlo frente a la recámara. ;C
 12;;En un arma semiautomática, ¿qué pieza introduce el cartucho en el interior de la recámara?.;El cierre. ;El muelle elevador. ;La biela. ;A
-13;;En escopetas superpuestas, ¿qué misión tiene la banda intermedia ventilada, existente entre los cañones?.;Refrigerar los cañones. ;Amortiguar el efecto de los vientos laterales. ;Las dos anteriores. ;A
+13;;En escopetas superpuestas, ¿qué misión tiene la banda intermedia ventilada, existente entre los cañones?.;Refrigerar los cañones. ;Amortiguar el efecto de los vientos laterales. ;Las dos anteriores. ;C
 14;;¿Qué mecanismo se encuentra en el interior del cerrojo de un rifle?.;Mecanismo de percusión. ;Mecanismo de disparo. ;Mecanismo de expulsión. ;A
 15;;¿De qué partes se compone el mecanismo de percusión?;Percutor y muelle del percutor. ;Percutor y cabeza del cierre. ;Cabeza y punta del percutor. ;A
 16;;En un rifle, ¿qué pieza arrastra el cartucho hacia la recámara?.;El cerrojo. ;El elevador. ;El percutor. ;A
@@ -20,7 +20,7 @@
 19;;El choke de una escopeta consiste en:;El estriado de la boca de fuego. ;Reducción de la boca de recámara. ;Estrangulamiento de la boca de fuego. ;C
 20;;El choke en el rifle semiautomático consiste :;El estriado de la boca de fuego. ;Reducción de la boca de fuego. ;Carecen de choke. ;C
 21;;¿A qué se denominan extractores en una escopeta superpuesta?:;Dos uñas que sirven para desalojar los cartuchos de su recámara ;A sendas bielas que conectan el disparador con las agujas percutoras. ;Dos muelles planos de acción helicoidal.;A
-22;;En un arma larga rayada, ¿qué forma tiene la recámara?;La del proyectil. ;La de la vaina. ;La del cartucho. ;B
+22;;En un arma larga rayada, ¿qué forma tiene la recámara?;La del proyectil. ;La de la vaina. ;La del cartucho. ;C
 23;;En las armas largas rayadas de caza mayor, ¿cómo es la percusión?;Percusión central ;Percusión adelantada. ;"Sistema ""Flobert"". ";A
 24;;¿Qué dispositivo bloquea el funcionamiento del mecanismo de disparo a voluntad del tirador?;Elementos de Puntería ;Nada ;Seguro manual. ;C
 25;;¿Cómo se denomina el extremo del cañón de una escopeta opuesto a la parte en que se aloja el cartucho?;Boca ;Cámara ;Recámara ;A
@@ -34,7 +34,7 @@
 33;;¿Puede darse el caso de que además de los extractores, las escopetas superpuestas dispongan de expulsores?;Todas;Ninguna ;Algunos modelos. ;C
 34;;¿Con qué elementos cuenta un arma para enfilarla hacia un blanco?.;A través del mecanismo de puntería. ;Con un buen empuñamiento. ;Con una buena sujeción del arma ;A
 35;;¿Qué elemento del arma regula el desplazamiento en altura de un impacto?.;El alza. ;El punto de mira. ;La longitud del cañón. ;A
-36;;¿Qué elemento del arma regula el desplazamiento lateral de un impacto?.;El alza. ;El punto de mira. ;La longitud del cañón. ;A
+36;;¿Qué elemento del arma regula el desplazamiento lateral de un impacto?.;El alza. ;El punto de mira. ;La longitud del cañón. ;B
 37;;¿Qué pieza del mecanismo de disparo transmite el movimiento del disparador?.;La biela. ;El elevador. ;El fiador. ;A
 38;;En una escopeta semiautomática la expulsión de la vaina percutida se produce:;Manualmente a voluntad del tirador. ;Aprovechando la fuerza de retroceso para desplazar el cierre. ;Como consecuencia de un mecanismo adyacente al cierre... ;B
 39;;En algunos rifles, ¿qué misión tienen uno o dos orificios situados en la parte anterior del cajón de los mecanismos?;Liberar la aguja percutora y que asome ;Ver si hay cartucho en la recámara ;Salida de gases en caso de rotura del cartucho ;C
@@ -49,7 +49,7 @@
 48;;¿Qué pieza golpea el fulminante del cartucho?.;El tope del cerrojo. ;El percutor. ;La uña de extracción. ;B
 49;;¿Qué avería se puede producir al disparar un arma en vacío?;Encasquillamiento del cierre. ;Bloqueo del elevador de cartucho. ;Rotura de la aguja percutora. ;C
 50;;El mecanismo de seguridad de un arma, ¿qué misión tiene?.;Evitar que se produzca un disparo involuntario. ;Evitar que se cargue el arma. ;Evitar que se descargue el arma. ;A
-51;;¿Puede tener seguro automático una escopeta de caza semiautomática?.;Depende del año de fabricación. ;Si. ;Las escopetas semiautomáticas no tienen seguro automático. ;C
+51;;¿Puede tener seguro automático una escopeta de caza semiautomática?.;Depende del año de fabricación. ;Si. ;Las escopetas semiautomáticas no tienen seguro automático. ;B
 52;;"Si un arma tiene el seguro de mano en posición ""S"", ¿puede efectuar el disparo?.";Si. ;No. ;Si, si está alimentada y montada. ;B
 53;;¿Cómo se denomina la varilla que se utiliza para limpiar el interior del cañón de las armas?;Escobilla ;Baqueta ;Plumero ;B
 54;;¿Con qué producto limpiaremos las partes de madera de un arma?;Con agua y jabón. ;Con gasolina o gasóleo. ;Con aceite de linaza. ;C
@@ -67,7 +67,7 @@
 66;;¿Cómo se debe actuar ante la presencia o proximidad de otras personas?;Con habilidad. ;Con destreza. ;Descargando el arma. ;C
 67;;Cuando cierre su escopeta, ¿a dónde debe dirigir la boca de fuego?;Hacia arriba. ;Hacia la horizontal ;Hacia el suelo. ;C
 68;;Al realizar un disparo con un rifle de caza mayor, debemos estar seguros de:;Visualizar la zona de impacto del proyectil ;Que el proyectil seguirá una trayectoria horizontal ;Que la carga del cartucho es la adecuada para alcanzar la pieza. ;A
-69;2;La clasificación de un arma dentro de una categoría, se determina en base a:;Su grado de peligrosidad;Sus características, destino o utilización y a veces por la licencia que la ampare.;Ambas respuestas son correctas;B
+69;2;La clasificación de un arma dentro de una categoría, se determina en base a:;Su grado de peligrosidad;Sus características, destino o utilización y a veces por la licencia que la ampare.;Ambas respuestas son correctas;C
 70;;"Las ballestas, incluidas en la 7ª categoría, son armas jurídicamente asimiladas a escopetas, ¿sería correcto el documentarlas con licencia ""D""?:";Si.;Documentarlas como de la 3ª.1 categoría.;No.;C
 71;;Las ballestas, son armas jurídicamente asimiladas a escopetas, ¿es de aplicación el mismo criterio a los arcos?;No.;Solo a los perfeccionados.;Si. Por estar incluidos en la categoría 7ª.;A
 72;;¿Qué instrumentos no especificados expresamente, están prohibidos en el Reglamento de Armas?:;Los especialmente peligrosos para la integridad física de las personas.;Los que tengan puntas de flecha.;Ambas respuestas son verdaderas.;A
@@ -76,7 +76,7 @@
 75;;Una escopeta, con rayas en el cañón para facilitar el plomeo, aunque esté marcada con punzón de escopeta por un Banco de Pruebas, ¿es un arma de fuego larga rayada para caza mayor?;Depende de la licencia de armas que la ampara.;Sí. Por estar incluida en la categoría 2ª.2.;No.;C
 76;;Un arma de fuego larga, de ánima lisa, que no es escopeta, ¿podría clasificarse en la 3ª categoría?.;Sí.;No, por ser un arma clasificada en la 1ª categoría.;Depende del proyectil.;A
 77;;Un arma de fuego larga, de ánima lisa, que no es escopeta, ¿podría clasificarse en la 2ª categoría?.;Sí.;No, por ser un arma clasificada en la 3ª categoría.;Depende del proyectil.;B
-78;;Las armas reglamentadas, se clasifican en:;Nueve categorías.;Seis categorías.;Diez categorías.;C
+78;;Las armas reglamentadas, se clasifican en:;Nueve categorías.;Seis categorías.;Diez categorías.;A
 79;;¿En qué categoría están incluidas las pistolas semiautomáticas?;En la 3ª.;En la 2ª;En la 1ª.;C
 80;;Un arma corta de fuego, de un solo tiro, del calibre 22, ¿en qué categoría está incluida?;4a;1ª;6ª;B
 81;;Un revólver, de 20 centímetros de cañón y del calibre 38, ¿a qué categoría pertenece?;No existe ese tipo de arma.;A la 1ª categoría.;A la 2ª categoría.;B
@@ -119,12 +119,12 @@
 118;;¿Cuáles de las siguientes armas están prohibidas?;Las armas de fuego largas con cañones recortados.;Los cuchillos de hoja superior a 11 centímetros de longitud.;Las cerbatanas.;A
 119;;Las armas de fuego, reales o simuladas, combinadas con armas blancas, son:;Armas prohibidas.;Armas reglamentadas.;Armas prohibidas a particulares.;A
 120;;Un arma de fuego simulada bajo apariencia de cualquier otro objeto, es:;Un arma prohibida.;Un arma prohibida a particulares.;Un arma reglamentada.;A
-121;;De las armas blancas que se detallan, ¿cuáles están prohibidas?;Los puñales;Los machetes del Ejército para desollar la caza.;Las dos anteriores;A
+121;;De las armas blancas que se detallan, ¿cuáles están prohibidas?;Los puñales;Los machetes del Ejército para desollar la caza.;Las dos anteriores;C
 122;;¿Se pueden utilizar miras telescópicas en las armas de la categoría 2ª.2?;Si.;No.;Está prohibido.;A
 123;;¿Se pueden utilizar miras telescópicas en las armas de la categoría 3ª.2?;Si.;No.;Está prohibido.;A
 124;;Un arma larga que contenga un dispositivo especial, en su culata, para una pistola legalizada, es:;Un arma prohibida.;Un arma combinada.;Un arma reglamentada.;A
 125;;De las armas blancas que se detallan, cuáles están prohibidas:;Los puñales;Navajas de hoja inferior a 11 centímetros.;Espadas.;A
-126;;Un cuchillo de monte, de dos filos, puntiagudo y con una hoja de 20 centímetros, sería:;Un arma de la 4ª categoría.;Un arma blanca permitida.;Un arma prohibida.;C
+126;;Un cuchillo de monte, de dos filos, puntiagudo y con una hoja de 20 centímetros, sería:;Un arma de la 4ª categoría.;Un arma blanca permitida.;Un arma prohibida.;B
 127;;De las que se relacionan, ¿cuáles son armas prohibidas?;Navajas automáticas;Navajas de menos de 11 centímetros de longitud de hoja.;Cuchillos de monte de doble filo con hoja de 13 centímetros de longitud.;A
 128;;Se puede poseer un rompecabezas, como instrumento auxiliar en caza mayor:;Sí.;Sí. Con autorización.;No, ya que se trata de arma prohibida.;C
 129;;¿Cuántos silenciadores se pueden tener con un arma larga rayada para caza mayor?;Uno para cada arma que se posea.;Uno solo, independientemente del número de armas que se posea.;Ninguno, está prohibido.;C
@@ -139,286 +139,325 @@
 138;;¿Es cierto si afirmamos que no es preceptiva la guía de circulación para amparar una escopeta que su titular transportará de una localidad a otra, provisto de guía de pertenencia y licencia correspondiente?;No en todos los casos.;Siempre que el transporte se realice dentro de la provincia.;Si.;C
 139;;¿Quién expide la Guía de circulación para transportar un arma de fuego de la 3ª categoría?;El/La Comandante de Puesto de la Guardia Civil;La Intervención de Armas y Explosivos.;El/La Teniente Coronel Jefe de la Comandancia de la Guardia Civil;B
 140;;¿Por qué es necesario solicitar una guía de circulación cuando se envía a reparar una báscula de escopeta entre dos lugares distintos?;Por ser un componente esencial;Porque va dentro de un paquete.;No es necesario ningún documento.;A
-141;;¿A quién se le entregarán las Guías de Circulación en los envíos de armas por empresas de transportes?;Al conductor del vehículo.;Al Jefe de la empresa.;Al Guardia Civil que custodia las guías.;C
-142;;¿Qué autoridad tiene la potestad para determinar que los envíos de armas de fuego de la 2ª y 3ª categoría sean escoltados?;El/La Director/a General de la Guardia Civil.;El/La Delegado/a del Gobierno.;El/La Ministro/a del Interior.;B
-143;;¿Cuándo será necesaria una Guía de Circulación en la importación de armas de la 3ª categoría?;Cuando se importe de un país de la Unión Europea.;Cuando las armas carezcan de guía de pertenencia.;Siempre que se importe un arma.;B
-144;;Al documentar un arma de la 3ª.1 categoría en una Intervención de Armas, ¿qué documento le amparará la tenencia de la misma?;La licencia de armas.;La guía de pertenencia.;La guía de circulación.;B
-145;;¿Qué documento ampara la tenencia y el uso de un arma de fuego de la 2ª categoría?;La guía de pertenencia.;La guía de circulación.;No es necesario ningún documento.;A
-146;;¿Qué documento acompaña siempre al arma en los traslados y uso?;La licencia de armas.;La guía de pertenencia.;La factura de compra.;B
-147;;¿Cuántas guías de pertenencia puede tener un arma de fuego de la 3ª categoría?;Una.;Dos.;Varias, si se va a prestar.;A
-148;;Las guías de pertenencia de las armas de fuego largas rayadas para caza mayor, serán extendidas en:;Impresos de color amarillo.;Impresos de color azul.;Impresos de color blanco.;C
-149;;Las guías de pertenencia de las escopetas de caza, serán extendidas en:;Impresos de color blanco.;Impresos de color amarillo.;Impresos de color rosa.;A
-150;;¿Para qué tipo de armas se extenderá la guía de pertenencia en cartulina de color blanco?;Pistolas y revólveres.;Armas de las categorías 2ª y 3ª.;Armas de aire comprimido.;B
-151;;¿Qué datos deben constar en una guía de pertenencia?;El número de licencia.;Los datos del establecimiento vendedor.;Los datos del titular y los del arma.;C
-152;;¿Para qué clase de armas no es necesario guía de pertenencia?;Para las de la categoría 4ª.;Para las de la categoría 7ª.2.;Para todas las armas.;A
-153;;Para las ballestas, ¿es necesaria guía de pertenencia?;No.;Sí.;Solo si se usa para cazar.;B
-154;;¿En qué casos no es necesaria la guía de pertenencia?;En armas de aire comprimido.;En armas de inyección anestésica.;Ambas respuestas son verdaderas.;C
-155;;¿Quién expide la guía de pertenencia?;La Intervención Central de Armas y Explosivos.;La Intervención de Armas y Explosivos que corresponda.;La Dirección General de la Policía.;B
-156;;El carné de coleccionista de armas, ¿ampara la tenencia de un arma de la 1ª categoría?;Si.;Solo para armas antiguas.;No.;C
-157;;¿Qué armas de fuego pueden tener los particulares en el libro-registro de coleccionista?;Las armas de fuego antiguas, históricas o artísticas.;Las de la 1ª categoría.;No se pueden tener armas de fuego.;A
-158;;¿Se puede amparar con el libro de coleccionista un arma de fuego de la 3ª.1 categoría en estado de funcionamiento?;Si.;No.;Solo si el titular es armero.;B
-159;;¿Es necesaria la guía de pertenencia para las armas inscritas en el libro-registro de coleccionista?;Si.;No.;Solo si son de la 2ª categoría.;B
-160;;¿Pueden los particulares tener en su domicilio armas de fuego antiguas sin ningún tipo de documento?;Si.;No.;Solo si están inutilizadas.;B
-161;;¿Pueden los particulares poseer armas de fuego históricas?;Sí, previa inutilización.;Sí, inscribiéndolas en el libro de coleccionista.;No.;B
-162;;¿A quién corresponde la inspección de las armas que tengan los particulares?;A la Policía Nacional.;A la Policía Local.;A la Guardia Civil.;C
-163;;¿Cada cuánto tiempo han de pasar revista las armas de la categoría 2ª.2 (rifles)?;Cada 5 años.;Cada 3 años.;Cada año.;A
-164;;¿En qué mes se pasa la revista de armas de fuego de las categorías 2ª y 3ª?;En el mes de mayo.;En el mes que corresponda por el número de serie.;En el mes que corresponda según la renovación de la licencia.;C
-165;;¿Dónde deben presentarse las armas para pasar la revista?;En el Ayuntamiento.;En la Intervención de Armas de la Guardia Civil.;En la Comisaría de Policía.;B
-166;;¿Qué documento debe presentarse para pasar la revista de armas?;La guía de pertenencia.;La factura de compra.;El permiso de caza.;A
-167;;¿Qué sucede si no se pasa la revista de armas en el plazo debido?;Se procederá al depósito del arma.;Se pone una multa y se puede seguir usando.;No sucede nada si la licencia está en vigor.;A
-168;;En caso de fallecimiento del titular de un arma de la 3ª categoría, ¿qué deben hacer los herederos?;Depositarla en la Intervención de Armas de la Guardia Civil.;Guardarla hasta que hereden la licencia.;Venderla inmediatamente.;A
-169;;¿Cuál es el plazo para depositar las armas por fallecimiento del titular?;6 meses desde el fallecimiento.;1 año.;15 días.;A
-170;;¿Pueden los herederos de un titular fallecido solicitar la adjudicación del arma?;Si, si cumplen los requisitos para su tenencia.;No, las armas no se heredan.;Solo si el arma está inutilizada.;A
-171;;Si el heredero no puede poseer el arma de un fallecido y no la vende ni inutiliza en un año desde el depósito, ¿qué ocurre?;Se la queda el Estado.;Sale a pública subasta.;Se destruye inmediatamente.;B
-172;;¿Cuándo se entrega el importe obtenido en la subasta de un arma de un fallecido?;Al heredero o a quien corresponda legalmente.;Se lo queda la Hacienda Pública.;Al comprador de la subasta.;A
-173;;"¿Se puede transferir una escopeta de caza a otra persona que posea licencia de armas ""E""?";Si.;No.;Solo si son parientes.;A
-174;;¿Dónde debe realizarse la transferencia de un arma entre particulares?;Ante la Intervención de Armas de la Guardia Civil.;En una notaría.;En el Ayuntamiento.;A
-175;;¿Qué documento es necesario para transferir una escopeta de un particular a otro?;La guía de pertenencia y las licencias de ambos.;Solo la guía de pertenencia.;El contrato de compra-venta solamente.;A
-176;;¿Se puede vender un arma a un establecimiento de venta de armas (armería)?;Si.;No.;Solo si el arma es nueva.;A
-177;;¿Qué debe hacer un titular si pierde la guía de pertenencia de su escopeta?;Nada, mientras tenga la licencia.;Solicitar un duplicado en la Intervención de Armas.;Denunciar en el Juzgado y ya está.;B
-178;;¿Qué debe hacer un titular si pierde su escopeta de caza?;Denunciarlo inmediatamente a la Guardia Civil o autoridad policial.;Esperar unos días por si aparece.;Darla de baja en la Intervención de Armas sin más.;A
-179;;¿Es obligatorio denunciar la pérdida o sustracción de la guía de pertenencia?;Si.;No.;Solo si el arma también se ha perdido.;A
-180;;Si se encuentra un arma de fuego, ¿qué debe hacerse?;Entregarla inmediatamente a la autoridad o sus agentes.;Quedársela si no tiene dueño.;Llevarla a una armería.;A
-181;;¿Qué ocurre con las armas depositadas en la Intervención de Armas que no son retiradas por sus dueños en los plazos legales?;Se devuelven a la fábrica.;Se venden en armerías.;Se destruyen o se subastan según el caso.;C
-182;;¿Pueden los particulares inutilizar sus propias armas de fuego?;Si, limando el percutor.;No, debe hacerse por un centro autorizado o armero y certificarlo la Guardia Civil.;Si, soldando el cañón.;B
-183;;¿Qué documento ampara a un arma inutilizada?;La guía de pertenencia.;Un certificado de inutilización.;Ninguno, ya no es un arma.;B
-184;;¿Es necesario dar de baja en la Intervención de Armas un arma que se va a inutilizar?;Si.;No.;Solo si es un rifle.;A
-185;;¿Se pueden vender armas inutilizadas entre particulares?;Si, siempre que tengan el certificado de inutilización.;No.;Solo si son armas antiguas.;A
-186;;¿Qué autoridad es competente para la concesión de licencias de armas largas rayadas para caza mayor?;El/La Alcalde/sa.;El/La Jefe de la Comandancia de la Guardia Civil.;El/La Ministro/a del Interior.;B
-187;;¿Cuál es la vigencia de una licencia de armas de caza (D o E)?;5 años.;3 años.;10 años.;A
-188;;¿A partir de qué edad se puede solicitar la autorización especial para menores (AEM)?;12 años.;14 años.;16 años.;B
-189;;¿Qué armas puede utilizar un menor con la autorización AEM?;Solo armas de aire comprimido.;Armas de la 2ª.2 y 3ª categorías (según el tipo de AEM).;Cualquier tipo de arma de fuego corta.;B
-190;;¿Qué requisito es indispensable para que un menor use un arma de caza?;Ir acompañado de una persona mayor de edad con licencia en vigor.;Tener permiso del colegio.;Solo se puede usar en campos de tiro.;A
-191;;"¿Cuántas armas de la categoría 3ª.2 (escopetas) se pueden poseer con una licencia ""E""?";1.;5.;6.;C
-192;;"¿Cuántas armas de la categoría 2ª.2 (rifles) se pueden poseer con una licencia ""D""?";1.;5.;Ilimitadas.;B
-193;;Para renovar una licencia de armas de caza, ¿qué documento médico es necesario?;Un informe de aptitudes psicofísicas.;Un certificado de vacunación.;Un análisis de sangre.;A
-194;;¿Qué ocurre con las armas si el titular no renueva la licencia a su vencimiento?;Debe depositarlas en la Intervención de Armas.;Puede guardarlas en su casa sin usarlas.;Se las puede dar a un amigo.;A
-195;;¿A quién puede prestar una escopeta de caza su titular?;A quien tenga licencia de caza.;No puede prestarla.;A quienes estén provistos de la licencia de armas correspondiente y de licencia de caza.;C
+141;;Cuando se envíe una escopeta sin guía de pertenencia y sin licencia, ¿qué documento amparará el traslado de una localidad a otra?;La autorización del armero;El permiso del Ayuntamiento;La guía de circulación;C
+142;;¿Qué armas de las que se citan a continuación, que se trasladan sin guía de pertenencia y sin licencia, necesitan guía de circulación para ser trasladadas entre dos localidades distintas?;Las de la 3ª categoría;Las de la 8ª categoría;Las dos anteriores son ciertas.;C
+143;;¿Cuándo necesitará guía de circulación una carabina de aire comprimido, que se traslade sin guía de pertenencia y sin licencia?;En todos los casos;Nunca;Si se trata de una carabina cuya energía cinética del proyectil en boca exceda de 24,2 Julios;C
+144;;¿Qué armas de las que se citan a continuación, que se trasladan sin guía de pertenencia y sin licencia, no necesitan guía de circulación para ser trasladadas entre dos localidades?;Las escopetas;Las armas de fuego largas rayadas.;Las dos anteriores son falsas.;C
+145;;"¿Qué armas de las que se citan a continuación, que se trasladan sin guía de pertenencia y sin licencia,
+necesitan guía de circulación para su traslado entre dos localidades distintas?";Las escopetas;Las armas de fuego largas rayadas.;Las dos anteriores son ciertas.;C
+146;;"Además de la guía de circulación, ¿se necesita algún otro documento que acompañe al arma, cuando ésta
+se envíe a reparar a otra localidad?";La guía de pertenencia;Autorización escrita por el titular;Ningún otro documento;C
+147;;"¿Es cierto que el Reglamento de Armas contempla que las armas reglamentadas de cualquier categoría y
+sus componentes esenciales acabados circularán en envases debidamente acondicionados para su
+seguridad durante el traslado?";Cierto.;Falso.;Depende del tipo de armas.;A
+148;;¿Se pueden enviar a reparar en un mismo envase, las escopetas junto con sus municiones?;Sí, siempre que en el mismo paquete no haya más de 25 armas cortas;Sí, siempre que en el mismo paquete no haya más de tres escopetas;No;C
+149;;¿Quién precintará los envases que contengan armas largas de cañón estriado?;El Servicio Postal de Correos;Intervención de Armas de la Guardia Civil o Armero/a autorizado/a;La empresa consignataria;B
+150;;¿Cómo deberán circular las armas reglamentadas de cualquier categoría y sus componentes esenciales?;En envases debidamente acondicionados para su seguridad durante el traslado.;En su funda y en una caja de cartón.;Si va desmontada, es suficiente.;A
+151;;"Si Vd. pretende enviar dos armas de su propiedad a reparar a Éibar, a dos fábricas diferentes, ¿puede
+hacerlo en un solo envase?";Sí, puesto que van destinados a la misma localidad.;No pueden remitirse en el mismo envase, al corresponder a distintos destinatarios.;Pueden ir en uno o dos paquetes, por estar permitido.;B
+152;;¿Se debe enviar un rifle y una escopeta a reparar en un mismo envase?;Sí, si van destinados al mismo armero.;"No, puesto que el mismo paquete no puede contener armas de cañón estriado junto con
+escopetas de caza.";Sí, puesto que el paquete es adecuado para armas largas, como son el rifle y la escopeta.;B
+153;;"¿Es cierto que el Reglamento de Armas preceptúa que en ningún caso podrán hacerse envíos o
+transportes de armas cargadas ni de armas conjuntamente con cartuchería susceptible de ser utilizada con
+las armas transportadas?";No lo preceptúa.;En el transporte de algunas armas.;Sí es cierto.;C
+154;;¿Se puede enviar a reparar una escopeta por Correo ?;No.;Cuando vayan desmontadas.;Sí, siempre que no se envíe conjuntamente con munición.;A
+155;;¿Cuándo se puede enviar a reparar las armas cargadas?;Sí, si son cortas;Nunca;Con autorización del Interventor de Armas.;B
+156;;"¿Qué plazo establece el Reglamento de Armas al particular que compra una escopeta en localidad distinta
+a la de su residencia para personarse en la Intervención de Armas y solicitar la Guía de Pertenencia?";No hay plazo establecido;Diez días.;Un día;B
+157;;"¿Por qué medio de transporte tiene que ser enviada una escopeta a reparar, si no la lleva su titular
+personalmente ?";Por giro postal;A través de una empresa de transportes.;Por medio de un amigo personal;B
+158;;"¿Puede un particular que ha comprado un arma larga rayada, en población distinta de la residencia,
+transportar dicha arma consigo hasta la Intervención de Armas de su residencia para que le extiendan la
+Guía de pertenencia?";Sí se puede, siempre que tenga licencia de armas;Sí, siempre que el comprador se halle en posesión de la guía de pertenencia;No.;C
+159;;En ningún caso podrán hacerse los envíos de:;Armas cargadas;Armas con cartuchería correspondiente a las mismas;La a) y la b) son ciertas;C
+160;;Al remitir un arma para reparación u otras causas, ¿Dónde debe figurar la declaración del contenido?;En la documentación y en el mismo paquete, en caracteres de suficiente claridad.;No debe figurar en ningún sitio visible, por tratarse de armas que deben transportarse con toda reserva.;Solamente debe figurar en la documentación (guía de circulación).;A
+161;;"¿Cómo debe transportarse un rifle de caza mayor, de nueva adquisición y sin guía de pertenencia, de una
+localidad a otra donde resida el titular?";Lo puede llevar el titular personalmente;Por medio de empresa de transporte;Con autorización de la armería;B
+162;;"Cuando un particular reciba notificación del remitente que le ha sido enviada a la Intervención de Armas de
+la Guardia Civil, la escopeta que compró al citado remitente, ¿qué deberá hacer?";Presentarse en la Intervención de Armas con la licencia de caza.;Trasladarse a la Intervención de Armas para ver si le gusta y si no devolverla.;"Presentarse en la Intervención de Armas provisto de licencia o documento que le autorice para
+adquirirla.";C
+163;;"Cuando un particular es destinatario de una escopeta enviada a la Intervención de Armas y Explosivos,
+¿es cierto que para retirarla debe presentar en dicha Intervención la licencia o documento que le autorice
+su adquisición?";Falso.;Cierto.;Sólo si se trata de escopetas.;B
+164;;"¿Es cierto que el Reglamento de Armas dispone que las armas de las categorías 1ª y todas las de
+concurso, pasarán revista cada tres años y las demás armas que precisen guía, cada cinco años?";Cierto.;Falso.;Solo en las de 2ª categoría.;B
+165;;¿Cada cuántos años pasan revista las armas de la 2ª categoría?;Dos años;Cinco años.;Todos los años;B
+166;;¿Cada cuántos años pasan revista las armas de la 3ª categoría?;Cinco años;Nunca;Tres años;A
+167;;¿Es necesario presentar el arma para pasar revista?;Si.;No.;Alguna vez.;A
+168;;El hecho de no pasar dos revistas del arma, ¿es causa de anulación y retirada de la guía de pertenencia?;No.;Si. ;Depende del valor histórico del arma;B
+169;;¿En qué mes pasará revista el titular de una guía de pertenencia de una escopeta?;En el mes que se abre la veda de caza;En el mes de abril;En el mes correspondiente a la renovación de la licencia.;C
+170;;"¿Qué necesita un familiar, con licencia de armas, de un titular de un arma para pasar la revista de las
+mismas?";Demostrar la relación de parentesco con el titular del arma;Autorización escrita del titular del arma.;Autorización escrita del Delegado/a del Gobierno de la Comunidad;B
+171;;"No pasar dos revistas consecutivas, dará lugar a la anulación y retirada de la Guía de Pertenencia, ¿a qué
+dará lugar también?";La pérdida de la propiedad del arma;A la apertura de un expediente sancionador;No poder cazar en el transcurso de un año;B
+172;;¿Quién realizará las anotaciones correspondientes al pasar la Revista de Armas?:;La persona afectada;El/La Interventor/a de Armas;El/La Jefe de la Comandancia de la Guardia Civil;B
+173;;¿Qué requisito es imprescindible para pasar la Revista de Armas?:;La presentación del Arma;Tiene que ser pasada por el/la titular del Arma;Las respuestas a) y b) son ciertas;A
+174;;El hecho de no pasar la revista de armas constituye:;Una infracción Administrativa;Un Delito;Una falta penal;A
+175;;Si tengo una escopeta de caza, ¿cada cuánto tiempo tengo que pasar revista?;Cada año.;Cada tres años.;Cada cinco años.;C
+176;;¿Cada cuánto tiempo pasarán revista las armas de concurso?;Cada tres años.;Cada cinco años.;En cada concurso;B
+177;;¿Cada cuánto tiempo pasarán revista las ballestas?;Las ballestas no pasan revista, por no ser armas de fuego.;Cada tres años.;Cada cinco años como las escopetas.;C
+178;;¿Puede un tercero, con licencia de armas, pasar revista de una escopeta?;No, tiene que ser personalmente el titular.;Sí, si lo autorizó el/la titular por escrito.;Sí, aprovechando la revista de las suyas, sin más trámite.;B
+179;;Una carabina de aire comprimido de la 4ª categoría. ¿cuándo tiene que pasar la revista?;Cada cinco años.;Cada tres años.;No tiene que pasar revista.;C
+180;;"¿En qué circunstancias se puede pasar revista de armas sin presentarla en la Intervención de Armas o
+Puesto de la Guardia Civil?";En caso de enfermedad;Cuando sea de nueva adquisición;En ningún caso;C
+181;;"Un cañón estriado, y con recámara para cartuchos metálicos, adaptable a una escopeta de caza, pasará
+revista de armas a los:";5 años;3 años;No pasa revista;A
+182;;"Una carabina de repetición accionada por gas comprimido, no asimilada a escopeta, pasará revista de
+armas cada:";3 años;5 años;No necesita pasar revista;C
+183;;"Una carabina de aire comprimido, cuyo proyectil en boca tiene una energía superior a los 24,2 julios, ¿ha
+de pasar revista de armas?";Si.;No.;Sólo si se usa para cazar;A
+184;;"¿Es cierto que el particular que desee enajenar un arma tiene que hacer la cesión a persona que posea la
+licencia, tarjeta o certificado de inutilización correspondiente?";Sí, siempre que sea necesario con arreglo a lo dispuesto en el Reglamento de Armas.;Puede enajenarse a cualquiera;Las armas de fuego no pueden enajenarse.;A
+185;;Al enajenar un particular un arma de fuego, ¿donde entregará la guía de pertenencia?;Al adquirente.;En la Intervención de Armas.;En el Ayuntamiento.;B
+186;;¿Debe comunicarse a la Intervención de Armas la enajenación de un arma?;Siempre;Nunca;Únicamente las armas cortas;A
+187;;¿En qué caso no es necesario participar a la Intervención de Armas la enajenación de un arma?;Se participa siempre.;Cuando se enajena a una armería.;Cuando se regala a alguien, sin mediar precio.;A
+188;;¿Qué requisito es indispensable que tenga el comprador de un arma de fuego?;Que se halle en posesión de la licencia para el arma que pretende adquirir.;Que tenga licencia de caza y seguro del cazador.;No es necesario requisito alguno.;A
+189;;La enajenación de un arma entre particulares, ¿qué nuevo documento le será expedido al comprador?;Recibo de compra-venta.;Entrega del arma al nuevo titular con su guía de pertenencia.;Expedición de nueva guía de pertenencia;C
+190;;La venta de un arma de fuego se efectuará siempre con conocimiento de:;Comisaría de Policía;Dirección General de la Guardia Civil.;Intervención de Armas correspondiente;C
+191;;"¿Es cierto que los extranjeros residentes en España podrían prestar sus armas de caza a quienes estén
+provistos de licencia de caza y de licencia de arma larga rayada para caza mayor o escopetas?";Cierto.;Solo las escopetas.;Los/Las extranjeros/as residentes no pueden prestar sus armas.;A
+192;;¿Qué requisitos debe cumplir una persona para que se le pueda ceder el arma?;Ser propietario/a de un coto de caza;Poseer la correspondiente licencia de armas;Tener aficiones cinegéticas;B
+193;;¿Por cuánto tiempo se puede prestar las armas para cazar ?;Mientras sea titular de un coto de caza;Un mes;Quince días como máximo;C
+194;;¿Cómo se debe hacer la cesión temporal de las armas ?;Por escrito, fechado y firmado.;De palabra;Por teléfono;A
+195;;Una persona con nacionalidad español/a, ¿a quien podrá prestar su escopeta?;A quien tenga licencia de caza.;No puede prestarla.;A quienes estén provistos de la licencia de armas correspondiente y de licencia de caza.;C
 196;;El/La titular de un arma larga rayada para caza mayor ¿a quien podrá prestar dicha arma?;A nadie.;A quienes estén provistos de la licencia de armas correspondiente y de licencia de caza.;A quien esté provisto de licencia de caza.;B
-197;;¿Es cierto que las armas de caza podrán prestarse a quienes estén provistos de licencia de caza y de licencia de armas largas rayadas para caza mayor o escopeta correspondiente?;Cierto.;En ningún caso.;Depende de la Comunidad Autónoma.;A
+197;;"¿Es cierto que las armas de caza podrán prestarse a quienes estén provistos de licencia de caza y de
+licencia de armas largas rayadas para caza mayor o escopeta correspondiente?";Cierto.;En ningún caso.;Depende de la Comunidad Autónoma.;A
 198;;¿Cómo se prestarán siempre las escopetas?;Con sus guías de pertenencia.;Con la licencia de caza.;Con la guía de circulación.;A
 199;;¿Cómo se prestarán siempre las armas de caza?;Con sus guías de pertenencia.;No se pueden prestar.;Con sus fundas.;A
 200;;¿Se podrán prestar las armas de caza a quien no esté provisto de licencia de caza?;Sí, si quien la va a utilizar dispone de finca particular para el ejercicio de la caza.;No.;Si, por no ser requisito fundamental.;B
-201;;¿Qué requisito es necesario acreditar para obtener la guía de pertenencia de un arma?;Que cumple con las medidas de seguridad impuestas en la custodia de la misma.;Que no ha tenido ningún incidente en el uso de las armas.;Que no ha extraviado en ninguna ocasión la licencia.;A
-202;4;"¿Un rifle automático puede ampararse en una Licencia de Armas ""D""?";Sí;No por ser arma de guerra prohibida a particulares;Sí, si emplea munición de caza;B
+201;;¿Qué requisito es necesario acreditar para obtener la guía de pertenencia de un arma?;Que cumple con las medidas de seguridad impuestas en la custodia de la misma.;Que no ha tenido ningún incidente en el uso de las armas.;Que no ha extraviado en ninguna ocasión la guía de pertenencia.;A
+202;4;¿Un rifle automático puede ampararse en una Licencia de Armas 'D'?;Sí;No por ser arma de guerra prohibida a particulares;Sí, si emplea munición de caza;B
 203;;Para la expedición de una licencia de armas, ¿qué edad mínima tendrá el peticionario?;14 años.;16 años.;18 años.;C
-204;;"¿Cuantas licencias de armas ""D"" se podrán poseer?";Dependerá del número de amas que se posean.;Una.;Dos.;B
-205;;¿Qué documentos para la utilización de un arma larga rayada para caza mayor, portará su titular cuando ejerza la práctica de la caza?;"Licencia ""D"" y guía del arma que utilice.";Tarjeta de armas.;Solo la guía de pertenencia.;A
+204;;¿Cuantas licencias de armas 'D' se podrán poseer?;Dependerá del número de amas que se posean.;Una.;Dos.;B
+205;;¿Qué documentos para la utilización de un arma larga rayada para caza mayor, portará su titular cuando ejerza la práctica de la caza?;Licencia 'D' y guía del arma que utilice.;Tarjeta de armas.;Solo la guía de pertenencia.;A
 206;;¿Se puede expedir una licencia de armas a un español residente en Francia?;Sí.;No.;Si, por ser un país de la U.E.;A
-207;;"¿Podría utilizar un titular de licencia de armas ""E"" una escopeta de su propiedad inscrita en un Libro-Registro de coleccionista, para ejercer la caza?";Sí, siempre que la saque del Libro.;No.;Sí, si está en uso.;B
-208;;"¿Cuál es la vigencia de las licencias de armas tipo ""D"" y ""E""?";Dos años.;Tres años.;Cinco años.;C
-209;;"¿Por quién será concedida la licencia de armas ""D""?";Por el/la Director/a General de la Guardia Civil.;Por el/la Delegado/a del Gobierno.;El/La Jefe de la Comandancia de la Guardia Civil de la zona de residencia del solicitante.;C
-210;;"¿Cuántas armas se pueden amparar en una licencia de armas ""E""?";6 escopetas.;6 armas de la categoría 4ª.;Un máximo de 12 armas.;C
-211;;¿Qué licencias de armas se conceden a los españoles y extranjeros con residencia en España que sean mayores de 18 años?;La B, C, D, E y F.;Todas las anteriores menos la B.;Ninguna de ellas.;B
-212;;¿Qué documento amparará a los españoles residentes en el extranjero, cuando visiten España para participar en concursos de tiro o actividades deportivas de caza?;La licencia de su país de residencia.;Una autorización especial de uso de armas.;No necesitan nada.;B
-213;;¿Con qué licencia de armas se podrán amparar las ballestas?;"Con la licencia de armas ""D"".";"Con la licencia de armas ""E"".";"Con la licencia de armas ""F"".";B
-214;;"¿Qué armas se pueden amparar en una licencia de armas ""E""?";Armas de la categoría 3ª, 7ª.2 y 7ª.3.;Armas de la categoría 2ª y 3ª.;Armas de la categoría 4ª.;A
-215;;"¿Cuántas armas de fuego largas rayadas para caza mayor se pueden poseer con la licencia ""D""?";Una.;Cinco.;Doce.;B
-216;;"¿Qué armas ampara la licencia de armas ""E""?";Escopetas y armas largas rayadas del calibre 5'6 mm.;Ballestas y armas lanza cabos.;Las respuestas A y B son correctas.;C
-217;;¿Es necesaria la licencia de armas para poseer armas de la categoría 4ª?;"Sí, la licencia de armas ""E"".";"Sí, la licencia de armas ""D"".";No, se ampararán con tarjetas de armas.;C
-218;;¿Quién concede las tarjetas de armas de la categoría 4ª?;Los/Las Alcaldes/as.;Los/Las Jefes/as de Comandancia de la Guardia Civil.;Los/Las Interventores/as de Armas de la Guardia Civil.;A
-219;;"Las tarjetas de armas tipo ""A"" para armas de la categoría 4ª, tienen una validez de:";Tres años.;Dos años.;Cinco años.;C
-220;;"Las tarjetas de armas tipo ""B"" para armas de la categoría 4ª, tienen una validez de:";Cinco años.;Permanente.;Seis años.;B
-221;;¿Qué validez tienen las tarjetas de armas tipo B?;Cinco años.;Diez años.;Permanente.;C
-222;;¿Dónde tienen validez las tarjetas de armas que conceden los Alcaldes?;Solo en el propio término municipal.;En toda la provincia.;En toda la Comunidad Autónoma.;A
-223;;¿Cuántas armas de aire comprimido se pueden amparar en una tarjeta de armas tipo B?;Seis armas.;Cuatro armas.;No hay límite.;B
-224;;¿Cuántas armas se pueden amparar en una tarjeta de armas tipo A?;Seis armas.;Ocho armas.;Diez armas.;A
-225;;¿Se pueden amparar en una tarjeta de armas, las carabinas de aire comprimido cuya energía en la boca de fuego exceda de 24'2 julios?;Sí.;"No, necesitan licencia de armas ""E"".";Depende de lo que diga el Alcalde.;B
-226;;¿Por qué es necesaria la Tarjeta Europea de Armas de Fuego?;Para viajar con armas por los países de la Unión Europea.;Para poder cazar en España.;Para comprar armas en el extranjero.;A
-227;;¿A quién se le puede conceder la Tarjeta Europea de Armas de Fuego?;A los españoles y extranjeros residentes en España con licencia de armas en vigor.;A cualquier ciudadano.;Solo a los coleccionistas de armas.;A
-228;;¿Qué validez tiene la Tarjeta Europea de Armas de Fuego?;Cinco años, renovables.;Tres años.;Permanente mientras dure la licencia.;A
-229;;¿Quién expide la Tarjeta Europea de Armas de Fuego?;El/La Ministro/a del Interior.;La Dirección General de la Guardia Civil.;Los/Las Delegados/as del Gobierno.;B
-230;;¿Qué documento es necesario para que un menor de 18 años y mayor de 14 pueda utilizar un arma de caza?;"La licencia de armas ""E"".";Una tarjeta de armas.;Una autorización especial para menores (AEM).;C
-231;;¿Quién concede la autorización especial para menores (AEM)?;El/La Alcalde/sa.;El/La Ministro/a del Interior.;El/La Jefe de la Comandancia de la Guardia Civil.;C
-232;;¿Qué armas puede utilizar un menor con la autorización AEM?;Armas de la categoría 2ª.2 o 3ª.;Armas de la categoría 1ª.;Cualquier tipo de arma de fuego.;A
-233;;¿Qué condiciones debe cumplir un menor para usar un arma de caza?;Estar solo en el campo.;Estar siempre acompañado por una persona mayor de edad con licencia en vigor.;Tener un permiso especial del Ayuntamiento.;B
-234;;¿A qué edad caduca la autorización especial para menores (AEM)?;A los 16 años.;Al cumplir los 18 años.;A los 21 años.;B
-235;;¿Qué licencia de armas se necesita para el tiro deportivo?;"La licencia ""D"".";"La licencia ""E"".";"La licencia ""F"".";C
-236;;"¿Quién concede la licencia de armas tipo ""F""?";El/La Director/a General de la Guardia Civil.;El/La Jefe de la Comandancia de la Guardia Civil.;El/La Delegado/a del Gobierno.;A
-237;;"¿Qué vigencia tiene la licencia de armas tipo ""F""?";Tres años.;Cinco años.;Dos años.;B
-238;;"¿Cuántas armas se pueden tener con la licencia de armas ""F"" de tercera clase?";Un arma corta o un arma larga.;Dos armas.;Tres armas.;A
-239;;"¿Cómo deben guardarse las armas amparadas con licencia de armas tipo ""F"" en el domicilio?";En un armario cualquiera.;En una caja fuerte o armero autorizado.;Debajo de la cama.;B
-240;;"¿Cuál es el número máximo de armas que puede tener un tirador de primera clase con licencia ""F""?";6 armas.;10 armas.;15 armas.;B
-241;;"¿Para qué sirve la licencia de armas tipo ""A""?";Para el personal de las Fuerzas Armadas, Fuerzas y Cuerpos de Seguridad y Vigilancia Aduanera.;Para los cazadores.;Para los coleccionistas.;A
-242;;"¿Qué armas pueden ampararse en la licencia tipo ""A""?";Solo armas cortas.;Solo armas largas.;Las de la categoría 1ª, 2ª y 3ª.;C
-243;;¿Qué licencia necesitan los vigilantes de seguridad para portar armas?;"La licencia ""B"".";"La licencia ""C"".";"La licencia ""D"".";B
-244;;¿A nombre de quién se expedirá la guía de pertenencia de un arma de un vigilante de seguridad?;Del propio vigilante.;De la empresa de seguridad.;Del Ministerio del Interior.;B
-245;;¿Dónde deben guardarse las armas de los vigilantes de seguridad cuando no estén de servicio?;En su propio domicilio.;En el armero de la empresa de seguridad.;En la Intervención de Armas.;B
-246;;"¿Cuál es la vigencia de la licencia de armas tipo ""C""?";Tres años.;Cinco años.;Permanente.;B
-247;;¿Qué licencia ampara la tenencia de armas cortas de particulares (pistolas o revólveres)?;"La licencia ""B"".";"La licencia ""A"".";"La licencia ""C"".";A
-248;;"¿Quién concede la licencia de armas tipo ""B""?";El/La Director/a General de la Guardia Civil.;El/La Jefe de la Comandancia de la Guardia Civil.;El/La Ministro/a del Interior.;A
-249;;"¿Qué vigencia tiene la licencia de armas tipo ""B""?";Tres años.;Cinco años.;Diez años.;B
-250;;"¿Cuántas armas cortas se pueden poseer con una licencia tipo ""B""?";Una.;Dos.;Tres.;A
-251;;"¿Es posible renovar una licencia de armas tipo ""B""?";Sí, acreditando que persisten las causas que motivaron su concesión.;No, es de un solo uso.;Sí, automáticamente.;A
-252;;¿Qué documento es necesario para el coleccionismo de armas de fuego antiguas o históricas?;"La licencia de armas ""D"".";El Libro-Registro de coleccionista.;La tarjeta de armas.;B
-253;;¿Quién expide el Libro-Registro de coleccionista?;El/La Alcalde/sa.;La Intervención de Armas y Explosivos de la Guardia Civil.;El/La Director/a General de la Guardia Civil.;B
-254;;¿Pueden utilizarse las armas inscritas en el Libro de coleccionista para disparar?;Sí.;No, a menos que se amparen en la licencia correspondiente y se saquen del libro.;Sí, si son antiguas.;B
-255;;¿Qué licencia se necesita para amparar las armas de la categoría 7ª.1 (armas de inyección anestésica)?;"La licencia ""E"".";"La licencia ""D"".";No necesitan licencia, basta con la guía de pertenencia.;C
-256;;¿Dónde deben presentarse las solicitudes de licencia de armas?;En las Intervenciones de Armas de la Guardia Civil.;En las Comisarías de Policía.;En los Ayuntamientos.;A
-257;;¿Qué documentos deben acompañar a la solicitud de una licencia de armas?;Certificado de antecedentes penales.;Informe de aptitud psicofísica.;Ambos documentos y el justificante del pago de tasas.;C
-258;;¿Qué autoridad resuelve sobre la concesión o denegación de las licencias de armas?;La Guardia Civil siempre.;El/La Ministro/a del Interior.;Dependerá del tipo de licencia de armas.;C
-259;;¿Cuál es el plazo máximo para resolver una solicitud de licencia de armas?;Tres meses.;Seis meses.;Un mes.;A
-260;;¿Qué ocurre si la Administración no contesta a una solicitud de licencia en el plazo legal?;Se entiende concedida.;Se entiende denegada (silencio administrativo negativo).;Hay que volver a presentarla.;B
-261;;¿Se pueden recurrir las denegaciones de licencias de armas?;Sí, en vía administrativa.;No.;Solo si el arma es para cazar.;A
-262;;¿Qué causa puede motivar la revocación de una licencia de armas?;Perder el trabajo.;Dejar de cumplir los requisitos necesarios o conducta incompatible con el uso de armas.;Cambiar de domicilio.;B
-263;;¿Qué se debe hacer con las armas si se revoca la licencia?;Depositarlas inmediatamente en la Intervención de Armas de la Guardia Civil.;Venderlas a un amigo.;Inutilizarlas.;A
-264;;¿A partir de qué edad se debe realizar el visado de las licencias de armas cada dos años?;60 años.;67 años.;70 años.;B
-265;;¿Qué documento deben presentar los mayores de 67 años para mantener la vigencia de su licencia?;Un informe de aptitud psicofísica favorable.;Un certificado médico de cabecera.;No deben presentar nada.;A
-266;;"¿Qué licencia se necesita para las armas de la categoría 7ª.4 (armas de sistema ""Flobert"")?";"La licencia ""E"".";"La licencia ""D"".";No necesitan licencia, se amparan con la guía de pertenencia.;C
-267;;"¿Es obligatorio superar una prueba de capacitación para obtener las licencias ""D"" o ""E"" por primera vez?";Sí, una prueba teórica y otra práctica.;No.;Solo la teórica.;A
-268;;¿Quién expide la guía de pertenencia de un arma?;El/La Delegado/a del Gobierno;El/La Interventor/a de Armas.;El/La director/a General de la Guardia Civil.;B
-269;;"A la solicitud de expedición de licencia de armas tipo ""D"" ¿qué documentos han de unirse?";Certificado antecedentes penales e informe de aptitudes psicofísicas.;Fotocopia del DNI o en su caso tarjeta de autorización de residencia.;Todos los reseñados en la A y B.;C
-270;;"¿Qué documentos presentará el interesado al solicitar la expedición de licencia ""E""?";Solamente el certificado de antecedentes penales e informe de aptitud psicofísica.;Certificado de antecedentes penales en vigor, Informe de aptitud psicofísicas y acreditación de la dedicación real al ejercicio de la caza o de los deportes correspondientes.;Ninguna de las anteriores.;B
-271;;¿Cuál de los siguientes documentos no será obligatorio para la expedición de la Licencia de Armas tipo E?;Informe de aptitudes Psicofísicas.;Certificado de antecedentes penales.;Certificado de la Federación de Tiro Olímpico.;C
+207;;¿Podría utilizar un titular de licencia de armas 'E' una escopeta de su propiedad inscrita en un Libro-Registro de coleccionista, para ejercer la caza?;No, porque está prohibido su uso.;Si porque el/la titular de la licencia y el libro-registro es la misma persona.;No porque está prohibida su circulación.;A
+208;;¿Qué es necesario en el territorio español para poseer una escopeta de caza?;Tarjeta de armas.;Un permiso de armas.;Licencia de armas tipo 'E';C
+209;;¿Quiénes pueden tener y usar alzas o miras telescópicas adaptables a las armas de caza mayor?;Las puede tener y usar cualquiera, pues no se trata de un arma.;Necesitan una autorización especial de la Intervención de Armas de la Guardia Civil.;Las personas que estén en posesión de licencia de armas tipo 'D'.;C
+210;;¿Qué edad mínima debe tener una persona para poder poseer un rifle de caza mayor y qué licencia necesita?;Debe tener como mínimo 18 años y estar en posesión de licencia de armas tipo 'D'.;Tener entre 16 y 18 años y estar en posesión de autorización especial de uso de armas para menores.;Tener como mínimo 16 años, tener licencia de armas tipo 'D' y que la Intervención de Armas le autorice.;A
+211;;En un arma combinada (escopeta y rifle de caza), ¿cómo se documentará dicha arma?;Dos, una para la escopeta y otra para el rifle.;Dos licencias en un modelo de licencia especial.;Se documentará con una guía de pertenencia, teniendo en cuenta el arma de mayor peligrosidad.;C
+212;;El/La propietario/a de una escopeta y un arma larga rayada para caza mayor, ¿qué licencias de armas deberá tener?;Licencia de armas 'D' y 'E'.;Solo licencia 'D' pues ampara un arma de mayor peligrosidad.;Licencia de armas 'D' o 'E', es indiferente.;A
+213;;¿Qué documento se entrega al Interventor de Armas, por pérdida, destrucción, robo o sustracción de un arma de la categoría 2ª y 3ª?;Guía de pertenencia.;Licencia de armas correspondiente.;Tarjeta federativa.;A
+214;;¿Qué documento podrá solicitarse en la Intervención de Armas, ante la pérdida, destrucción, robo o sustracción de la licencia de armas?;Guía de pertenencia.;Guía de circulación.;Autorización temporal de uso de armas.;C
+215;;Cuando las licencias de armas estén próximas a caducar, ¿qué documento podrán expedir los/las Interventores/ras de Armas?;Guía de pertenencia.;Guía de circulación.;Autorización temporal de uso de armas.;C
+216;;¿Qué es una autorización temporal de uso de armas?;Es una autorización que se otorga a cualquier persona mayor de edad para poder cazar quince días.;Es una autorización que se concede a las personas con licencias de armas caducadas para poder cazar.;Son autorizaciones que expiden los Interventores de Armas a las personas con licencias de armas próximas a caducar, con un período de vigencia de tres meses y solamente para el uso de las armas.;C
+217;;"Los titulares de licencias de armas próximas a caducar, cuando éstos/as solicitan su nueva concesión, las
+Intervenciones de Armas y Explosivos podrán expedir a los solicitantes autorizaciones temporales de uso
+de dichas armas, ¿qué plazo de validez tendrán dichas autorizaciones?";Un mes.;Dos meses.;Tres meses.;C
+218;;"¿Quien expide la autorización temporal de uso de armas a los titulares de licencias de armas próximas a
+caducar, cuando éstos solicitan su nueva concesión?";El/La Alcalde/sa del Ayuntamiento.;El/La Interventor/a de Armas y Explosivos.;El/La Armero/a autorizado/a.;B
+219;;Para la tenencia de armas de la categoría 2ª.2-Armas de fuego largas rayadas para caza mayor, ¿con qué documento habrá de estar documentada cada arma?;Licencia de caza.;Con guía de pertenencia.;Tarjeta deportiva.;B
+220;;Para la tenencia de armas de la categoría 3ª.2-Escopetas y demás armas de fuego largas de ánima lisa ¿con qué documento habrá de estar documentada cada arma?;Licencia de armas 'D'.;Guía de circulación.;Con guía de pertenencia.;C
+221;;"Para la tenencia de armas de la categoría 3ª.3 -Armas accionadas por aire u otro gas comprimido, siempre
+que la energía cinética del proyectil en boca exceda de 24,2 julios, ¿con qué documento habrá de estar
+documentada cada arma?";Con guía de pertenencia.;Tarjeta de armas.;Guía especial.;A
+222;;Para la tenencia de armas de la categoría, 7ª.2 -Ballestas ¿con qué documento habrá de estar documentada cada arma?;Tarjeta deportiva.;Con guía de pertenencia.;Licencia federativa.;B
+223;;Para la tenencia de armas de la categoría 7ª.3-Armas para lanzar cabos- ¿con qué documento habrá de estar documentada cada arma?;Certificado de la Comandancia de marina.;No es necesario ningún documento.;Con guía de pertenencia.;C
+224;;¿Cuántas armas irán reseñadas en una guía de pertenencia?;Una.;Dos.;Ninguna.;A
+225;;¿En qué casos acompañará la guía de pertenencia al arma?;No es necesario.;Solo cuando se deposite el arma.;En caso de uso, depósito y transporte.;C
+226;;Señale, entre las siguientes, el arma exceptuada de estar amparada con guía de pertenencia:;Escopetas;Pistolas;Arcos;C
+227;;Señale, entre las siguientes, el arma exceptuada de estar amparada con guía de pertenencia.;Pistola lanza bengalas.;Fúsil lanzacabos;Fúsil de inyección anestésica.;A
+228;;¿Cuántas escopetas de caza se pueden legalizar con una sola guía de pertenencia?;Solamente se puede legalizar una escopeta.;Más de una escopeta si es del mismo titular.;Con una guía de varios cuerpos, se pueden legalizar escopetas y rifles a la vez.;A
+229;;"En una Guía de Pertenencia, aparte del D.N.I., los datos personales del propietario del arma, así como los
+de la Licencia, ¿qué otros datos deben figurar?.";El nombre del fabricante.;La provincia donde fue fabricada el arma.;La reseña completa del arma.;C
+230;;Quienes precisen armas utilizables para la caza mayor ¿qué licencia de armas deberán obtener?;Licencia de armas 'D';Licencia de armas 'E';Licencia de armas 'F';A
+231;;Para la tenencia de un cañón estriado adaptable a una escopeta de caza, con recámara para cartuchos metálicos ¿qué licencia será necesaria?;Licencia de armas 'E';Licencia de armas 'F';Licencia de armas 'D';C
+232;;¿Qué armas ampara la licencia de armas 'D'?;Fusiles lanzacabos.;Escopetas.;Armas largas rayadas para caza mayor.;C
+233;;"¿Qué licencia de armas debe obtenerse para llevar y usar armas de fuego largas rayadas para tiro
+deportivo, de calibre 5,6 milímetros (22 americano), de percusión anular, bien sean de un disparo, bien de
+repetición o semiautomáticas (Categoría 3ª1)?.";Licencia de armas 'D';Licencia de armas 'C';Licencia de armas 'E';C
+234;;¿Qué licencia de armas debe obtenerse para poseer, llevar y usar ballestas (Categoría 7ª2)?;No precisan licencia.;Licencia de armas 'E';Tarjeta deportiva.;B
+235;;La Licencia 'E' autoriza a poseer, llevar y usar ¿qué categoría de armas?;Armas de la categoría 3ª, 7ª 2 y 7ª 3.;Armas de la categoría 4ª y 5ª.;Armas de la categoría 3ª y 4ª.;A
+236;;La licencia de armas “E” autoriza a poseer, llevar y usar armas de las categorías 3ª, 7ª 2 y 7ª 3. ¿cuántas armas se podrán poseer como máximo con la licencia 'E'?;Cinco armas largas rayadas.;Su número no excederá de 6 escopetas ó 6 armas largas rayadas para tiro deportivo, ni 12 armas en total.;Ninguna de las anteriores.;B
+237;;¿Hasta cuantas escopetas puede ampararse con una licencia de armas 'E'?;Cuatro.;Cinco.;Seis;C
+238;;¿Hasta cuantas armas de fuego largas rayadas para tiro deportivo puede amparar una licencia de armas 'E'?;Cuatro.;Cinco.;Seis.;C
+239;;¿Cuántas carabinas de aire comprimido se pueden legalizar con una licencia de armas tipo 'D'?;Cinco, lo mismo que los rifles.;Solamente tres.;Ninguna, las carabinas de aire o gas comprimido se legalizan con tarjetas de armas que expiden los/las Alcaldes/as.;C
+240;;¿El titular de armas de fuego cuando viaje con ellas por países miembros de la Unión Europea, deberá ser portador?;De licencia de armas correspondiente al país donde viaje.;De Tarjetas de armas correspondiente al país donde viaje.;De la Tarjeta Europea de Armas;C
+241;;¿Cuál es la vigencia de la Tarjeta Europea de Armas?;Dos años.;Tres años.;Cinco años.;C
+242;;¿Qué armas figurarán en la Tarjeta Europea de Armas?;Solo armas cortas.;Las que lleve o utilice su titular.;Armas amparadas con guía especial.;B
+243;;El solicitante de licencia 'E' ¿cómo acreditará que se dedica al ejercicio de la caza?;Mediante exhibición de la correspondiente licencia de caza.;Justificante del solicitante de pertenecer a una Federación Deportiva.;Ninguna de las anteriores.;A
+244;;Con la presentación de la licencia de caza en vigor, ¿puede el solicitante de una licencia E acreditar que se dedica al ejercicio de la caza?;No.;Sí.;Tendrá que acompañar el justificante de ser socio de un coto de caza.;B
+245;;¿A quiénes les podrán ser expedida la Tarjeta Europea de Armas?;A los/las españoles/las y extranjeros/ras residentes en España.;A los/las españoles/las residentes o no en España.;A los/las extranjeros/as residentes o no en España.;A
+246;;En la renovación de la Tarjeta Europea de Armas, ¿qué se exigirá?;Mantener la titularidad de las armas que ampare.;Licencia correspondiente.;Certificado de antecedentes penales.;A
+247;;¿Qué validez tendrán las autorizaciones especiales de uso de armas para menores?;Cinco años.;Tres años.;Hasta la mayoría de edad.;C
+248;;¿Qué edad mínima tendrá un menor para utilizar un arma larga rayada para caza mayor o tiro deportivo?;14 años.;16 años.;18 años.;B
+249;;¿Qué edad mínima tendrá un menor para utilizar armas de las categorías 3ª.2 y 3ª.3?;14 años.;16 años.;18 años.;A
+250;;¿De quiénes irán siempre acompañados los menores cuando utilicen armas de las categorías 2ª.2 o 3ª?;Personas mayores de edad.;Personas mayores de edad con licencia de armas D, E o F.;Personas mayores de edad y para cazar.;B
+251;;La persona mayor de edad en posesión de licencia de armas D, E o F que acompañe a un/a menor de edad en posesión de autorización especial de uso de armas, que esté utilizando armas de las categorías 2ª2 o 3ª, ¿a qué se habrán comprometido previamente?;A acompañarlo hasta el lugar de la cacería.;A vigilarlo en todo momento y lugar.;A acompañarlo y vigilarlo en cada cacería o acto deportivo.;C
+252;;Un menor ¿puede ser titular de una escopeta?;Sí, si tiene autorización especial de menores.;Puede ser titular de una escopeta solamente para cazar.;Un menor, no puede ser titular de una escopeta.;C
+253;;Indique el plazo de validez de una licencia de armas tipo 'D' expedida a una persona de 55 años.;Cinco años;Dos años;Tres años;A
+254;;Indique el plazo de validez de una licencia de armas 'E' expedida a una persona de más de 50 años de edad y menos de 60 años.;Una.;Tres.;Cinco.;C
+255;;Un joven de 17 años, ¿cuántas licencias de armas tipo 'E' puede tener?;Una.;Dos.;Ninguna.;C
+256;;¿Por quién estarán suscritas las solicitudes de autorizaciones especiales de uso de armas para menores?;Por el interesado.;Por el interesado y por la persona que ejerce la patria potestad o tutela.;Por el padre del interesado.;B
+257;;Indique el plazo de validez de una licencia de armas tipo 'E' expedida a una persona de 62 años.;Tres años;Un año;Cinco años;C
+258;;Indique el plazo de validez de una licencia de armas tipo 'D' expedida a una persona de 68 años.;Permanente;Un año;Cinco años visada cada Tres años;C
+259;;Indique el plazo de validez de una licencia de armas tipo 'E' expedida a una persona de 72 años.;Dos años;Tres años;Cinco años visada cada tres;C
+260;;Indique el plazo de validez de una licencia de armas tipo 'D' expedida a una persona de 71 años.;Cinco años visada cada tres;Dos años;Permanente.;C
+261;;¿A partir de qué edad es necesario visar la Licencia un particular?;Setenta años;Sesenta y cinco años;Sesenta y siete años;C
+262;;¿En qué plazo debe resolverse una solicitud de licencia de armas?;Un mes;Dos meses;Tres meses;C
+263;;Caso de no mantenerse los requisitos que se exigen para el otorgamiento de una licencia de armas, ¿qué procede?;Retirada de todas las armas.;Revocar la licencia.;Ninguna de las anteriores.;B
+264;;Según el Reglamento de Armas, ¿por cuánto tiempo se puede revocar una licencia de armas?;Por un período máximo de dos años.;Por el tiempo que le falte para caducar.;Máximo tres años.;A
+265;;¿Cuándo podrá comprobar la Administración el mantenimiento de los requisitos exigibles para mantener la vigencia?;Cuando lo solicite el titular.;En cualquier momento;En los casos de infracción;B
+266;;La vigencia de una licencia de armas estará condicionada a:;Mantenimiento de los requisitos exigibles en el Reglamento de Armas;No haber cambiado de residencia.;No haber llegado a la edad de 65 años.;A
+267;;"Para obtener licencia para la tenencia y uso de armas largas rayadas para caza mayor o para escopetas y
+armas asimiladas se superarán unas pruebas de capacitación ¿En qué consistirán las pruebas de capacitación para obtener licencia de armas?";Conocimiento del Reglamento de caza.;Conocimiento de las armas, su cuidado y conservación y sobre habilidad para su manejo y utilización.;Conocimiento de las licencias que existen.;B
+268;;¿Quien expide la guía de pertenencia de un arma?;El/La Delegado/a del Gobierno;El/La Interventor/a de Armas.;El/La director/a General de la Guardia Civil.;B
+269;;A la solicitud de expedición de licencia de armas tipo 'D' ¿qué documentos han de unirse?;Certificado antecedentes penales e informe de aptitudes psicofísicas.;Fotocopia del DNI o en su caso tarjeta de autorización de residencia.;Todos los reseñados en la A y B.;A
+270;;¿Qué documentos presentará el interesado al solicitar la expedición de licencia 'E'?;Solamente el certificado de antecedentes penales e informe de aptitud psicofísica.;Certificado de antecedentes penales en vigor, Informe de aptitud psicofísicas y acreditación de la dedicación real al ejercicio de la caza.;Ninguna de las anteriores.;B
+271;;¿Cuál de los siguientes documentos no será obligatorio para la expedición de la Licencia de Armas tipo E?;Informe de aptitudes Psicofísicas.;Certificado de antecedentes penales.;Certificado del Alcalde.;C
 272;5;En materia de armas, los hechos pueden ser constitutivos de:;Infracciones penales e infracciones administrativas.;Infracciones penales.;Infracciones muy graves, graves y leves.;A
 273;;En materia de armas, y de las clases de infracciones administrativas que se expresan. Indicar la proposición correcta.;Graves, menos graves y leves.;Muy Graves, graves y leves.;Graves y leves.;B
 274;;¿Quién es competente para imponer sanciones al Reglamento de Armas?;El/La Delegado/a del Gobierno y el/la directora/a General de la Guardia Civil.;El/La alcalde/sa.;Las dos anteriores son correctas.;C
 275;;De las que se citan ¿Qué autoridades son competentes para ordenar la instrucción de un procedimiento sancionador en materia de armas?;Interventor/a de Armas y Explosivos.;Director/a General de la Guardia Civil, Delegado/a del Gobierno y los/las Alcaldes/sas.;Delegado/a de Hacienda.;B
-276;;¿Prescriben las infracciones en materia de armas?;Sí.;No.;Solo las leves.;A
-277;;¿Cuándo prescriben las infracciones muy graves?;A los tres meses.;Al año.;A los tres años.;C
-278;;¿Cuándo prescriben las infracciones graves?;Al año.;A los dos años.;A los tres años.;B
-279;;¿Cuándo prescriben las infracciones leves?;A los seis meses.;Al año.;A los dos años.;A
-280;;¿Cuándo prescriben las sanciones impuestas por faltas muy graves?;Al año.;A los dos años.;A los tres años.;C
-281;;¿Cuándo prescriben las sanciones impuestas por faltas graves?;Al año.;A los dos años.;A los tres años.;B
-282;;¿Cuándo prescriben las sanciones impuestas por faltas leves?;Al año.;A los dos años.;A los tres años.;A
-283;;¿Fabricar armas de fuego de la 1ª categoría sin la correspondiente autorización es una infracción?;Muy grave.;Grave.;Leve.;A
-284;;El comercio de armas prohibidas, ¿qué tipo de infracción se considera?;Muy grave.;Grave.;Leve.;A
-285;;La omisión o insuficiencia de las medidas de seguridad obligatorias en las fábricas de armas se considera una infracción:;Muy grave.;Grave.;Leve.;A
-286;;La exportación de armas reglamentadas sin la debida autorización se considera una infracción:;Muy grave.;Grave.;Leve.;A
-287;;¿Es una infracción grave el uso de armas de fuego de la 1ª categoría sin la correspondiente licencia?;Sí.;No, es muy grave.;Es leve.;A
-288;;La tenencia de armas prohibidas se considera una infracción:;Muy grave.;Grave.;Leve.;B
-289;;¿Qué tipo de infracción es el uso de armas de fuego categoría 2ª.2 y 3ª.2 fuera de los lugares autorizados?;Muy grave.;Grave.;Leve.;B
-290;;La omisión o insuficiencia de las medidas de seguridad obligatorias para la custodia de las armas en el domicilio se considera:;Muy grave.;Grave.;Leve.;B
-291;;El incumplimiento de la obligación de dar cuenta a la Guardia Civil de la pérdida o sustracción de las armas es una infracción:;Muy grave.;Grave.;Leve.;B
-292;;El incumplimiento de la obligación de dar cuenta a la Guardia Civil de la pérdida o sustracción de la guía de pertenencia es una infracción:;Grave.;Leve.;Muy grave.;B
-293;;La tenencia de un arma de fuego sin guía de pertenencia se considera una infracción:;Muy grave.;Grave.;Leve.;B
-294;;La omisión de la revista de armas en los plazos legales se considera una infracción:;Muy grave.;Grave.;Leve.;C
-295;;¿Es una infracción el hecho de portar armas de fuego en establecimientos públicos o lugares de reunión?;No.;Sí, es una infracción grave.;Solo si son armas cortas.;B
-296;;¿Se pueden portar armas bajo los efectos de bebidas alcohólicas o drogas?;Sí.;No, es una infracción grave.;Solo si se tiene licencia.;B
-297;;¿Qué puede hacer la autoridad si una persona porta un arma bajo efectos del alcohol?;Nada.;Proceder a la incautación del arma y la retirada de la licencia.;Poner solo una multa.;B
-298;;¿La exhibición de armas de fuego de forma intimidatoria o peligrosa se considera una infracción?;Sí, grave.;No.;Solo si se dispara.;A
-299;;El uso de armas de fuego para fines distintos de los que motivaron su concesión es una infracción:;Muy grave.;Grave.;Leve.;B
-300;;¿Es infracción leve el hecho de no presentar el arma al ser requerido por la autoridad?;No.;Es grave.;Sí.;C
-301;;El descuido en la custodia de las armas que dé lugar a su pérdida o sustracción se considera:;Muy grave.;Grave.;Leve.;B
-302;;¿Qué sanción puede imponerse por una infracción muy grave?;Multa de hasta 601.012,10 euros y retirada de licencia.;Multa de 300 euros.;Solo retirada de licencia.;A
-303;;¿Qué sanción puede imponerse por una infracción grave?;Multa de 300,52 a 30.050,61 euros y retirada de licencia.;Multa de 60 euros.;Solo amonestación.;A
-304;;¿Qué sanción puede imponerse por una infracción leve?;Multa de hasta 300,51 euros.;Retirada permanente de licencia.;Cárcel.;A
-305;;¿Quién es competente para sancionar las infracciones graves cometidas por particulares?;El/La Delegado/a del Gobierno.;El/La Alcalde/sa.;El/La Interventor/a de Armas.;A
-306;;¿Quién es competente para sancionar las infracciones leves?;El/La Alcalde/sa o el/la Delegado/a del Gobierno.;Solo la Guardia Civil.;El Ministro de Justicia.;A
-307;;¿Puede la autoridad acordar la retirada de las armas de forma preventiva durante la instrucción de un expediente?;Sí.;No.;Solo en caso de asesinato.;A
-308;;¿Qué ocurre con la licencia de armas si su titular es condenado por un delito?;Se le retira la licencia de forma definitiva.;Nada, son cosas diferentes.;Solo se le retira si el delito es con armas.;A
-309;;¿Es causa de denegación de licencia tener antecedentes penales?;Sí.;No.;Solo si son antecedentes recientes.;A
-310;;¿Se puede recuperar una licencia retirada por sanción administrativa?;Sí, una vez transcurrido el plazo de la sanción y si han desaparecido las causas.;No, nunca.;Sí, pagando una tasa extra.;A
-311;;"¿Qué significa la ""incautación"" de un arma?";La aprehensión del arma por la autoridad por una supuesta infracción.;La venta del arma por el dueño.;El regalo del arma al Estado.;A
-312;;"¿Qué significa el ""decomiso"" de un arma?";La pérdida definitiva de la propiedad del arma por sanción o sentencia.;El alquiler del arma.;El cambio de calibre.;A
-313;;¿A dónde se llevan las armas incautadas por la autoridad?;A la Intervención de Armas de la Guardia Civil.;Al Ayuntamiento.;A una armería privada.;A
-314;;¿Se puede sancionar a una persona por tener una escopeta con los cañones recortados?;Sí, es una infracción muy grave por tenencia de arma prohibida.;No, si tiene licencia.;Es una infracción leve.;A
-315;;¿Es infracción la tenencia de munición para la que no se tenga guía de pertenencia del arma correspondiente?;Sí, grave.;No.;Solo si es mucha munición.;A
-316;;¿Qué autoridad sanciona la falta de medidas de seguridad en el transporte de armas?;El/La Delegado/a del Gobierno.;El/La Director/a General de la Guardia Civil.;El/La Alcalde/sa.;A
-317;;¿Es lícito el uso de silenciadores en armas de fuego?;Sí.;No, su tenencia y uso es una infracción grave.;Solo para cazar de noche.;B
-318;;¿Se pueden portar armas de fuego en manifestaciones?;Sí.;No, está prohibido y es infracción grave.;Solo si se es el organizador.;B
-319;;El incumplimiento de las condiciones de uso de la Tarjeta Europea de Armas es una infracción:;Muy grave.;Grave.;Leve.;B
-320;;¿Es infracción prestar un arma a quien no tiene la licencia correspondiente?;Sí, grave.;No.;Solo si ocurre un accidente.;A
-321;;¿Qué ocurre con las armas decomisadas?;Se destruyen o se subastan según su valor.;Se guardan para siempre.;Se devuelven al fabricante.;A
-322;;¿Cuál es la finalidad del régimen sancionador en materia de armas?;Garantizar la seguridad ciudadana y el control de las armas.;Recaudar dinero para el Estado.;Prohibir todas las armas.;A
-323;;¿Se puede recurrir una sanción impuesta por el Delegado del Gobierno?;Sí, mediante recurso de alzada ante el Ministro del Interior.;No.;Solo en el Juzgado.;A
-324;;¿Qué plazo hay para interponer un recurso de alzada?;Un mes.;Tres meses.;Quince días.;A
-325;;¿Qué plazo hay para resolver un recurso de alzada?;Tres meses.;Un año.;Un mes.;A
-326;;¿Qué ocurre si no se resuelve el recurso en plazo?;Se entiende desestimado (silencio negativo).;Se entiende concedido.;Hay que volver a empezar.;A
-327;;¿Puede la autoridad gubernativa suspender temporalmente la licencia de armas?;Sí, por razones de seguridad ciudadana.;No.;Solo si el titular lo pide.;A
-328;;El depósito de las armas por revocación de la licencia debe hacerse:;Inmediatamente.;Al mes siguiente.;Cuando el dueño quiera.;A
-329;;¿Es infracción llevar armas a una sala de fiestas?;Sí, infracción grave.;No.;Solo si se sacan de la funda.;A
-330;;¿Qué autoridades pueden comprobar que el titular de un arma no está bajo los efectos del alcohol?;Los agentes de la autoridad (Guardia Civil, Policía, etc.).;Solo los médicos.;Cualquier ciudadano.;A
-331;;¿Qué prueba se utiliza para detectar el consumo de alcohol en usuarios de armas?;Las mismas que en el tráfico rodado (aire espirado).;Un examen visual.;Ninguna, no se puede probar.;A
-332;;¿Es obligatorio someterse a las pruebas de detección de alcohol si se porta un arma?;Sí, su negativa es infracción grave.;No.;Solo si ha habido un disparo.;A
-333;;¿Qué implica el decomiso de un arma?;La pérdida de su propiedad y su entrega al Estado.;Guardarla en un cajón.;Limpiarla a fondo.;A
+276;;¿Cuándo prescribirán las infracciones administrativas leves?;A los 3 meses.;Al año.;A los 2 años.;A
+277;;¿Cuándo prescribirán las infracciones administrativas graves?;A los 3 meses.;Al año.;A los 2 años.;B
+278;;¿Cuándo prescribirán las infracciones administrativas muy graves?;A los 3 meses.;Al año.;A los 2 años.;C
+279;;¿Cuándo prescribirán las sanciones leves?;Al año.;A los 2 años.;A los 4 años.;A
+280;;¿Cuándo prescribirán las sanciones graves?;Al año.;A los 2 años.;A los 4 años.;B
+281;;¿Cuándo prescribirán las sanciones muy graves?;Al año.;A los 2 años.;A los 4 años.;C
+282;;¿Las sanciones impuestas en materia de armas, ¿Cuándo serán ejecutivas?;Cuando las resoluciones adquieran firmeza en vía administrativa.;A los diez días de notificar la resolución al interesado.;A los 30 días de notificar la resolución al interesado.;A
+283;;¿Se pueden imponer sanciones penales y administrativas por un mismo hecho?;Sí.;En ningún caso.;Dependerá de la Autoridad Judicial.;B
+284;;Si no constituye infracción penal, el almacenamiento, sin autorización, de un arma larga rayada, ¿de qué infracción administrativa se trata?;Muy grave;Grave;Leve;A
+285;;Si no constituye infracción penal, el almacenamiento, sin autorización, de un arma larga de ánima lisa, ¿De qué infracción administrativa se trata?;Muy grave;Grave;Leve;A
+286;;Si no constituye infracción penal, la insuficiencia de las medidas de seguridad obligatorias en la fase de almacenamiento, de un arma larga rayada, ¿qué infracción administrativa puede constituir?;Muy grave;Grave;Leve;A
+287;;Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de almacenamiento, de un arma larga rayada, ¿de qué infracción administrativa se trata?;Muy grave;Grave;Leve;A
+288;;La tenencia de una escopeta careciendo de guía de pertenencia es una infracción...;Gravísima;Leve;Ninguna de las anteriores.;C
+289;;¿Qué sanción pecuniaria puede imponer la autoridad competente por una infracción muy grave al Reglamento de Armas?;Multa de 30050′61 a 601012′10 euros.;Multa de 300′51 a 3005'06 euros.;Multa de hasta 300'51 euros.;A
+290;;Si no constituye infracción penal, la reparación sin autorización de una ballesta, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+291;;Si no constituye infracción penal, la reparación sin autorización de un arma para lanzar cabos, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+292;;Si no constituye infracción penal, el almacenamiento sin autorización de una ballesta, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+293;;Si no constituye infracción penal, el almacenamiento sin autorización de un arma para lanzar cabos, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+294;;"Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de almacenamiento, de una arma cuya tenencia requiera licencia ""E"", ¿de qué infracción administrativa se trata?";Grave;Leve;Muy grave;A
+295;;"Si no constituye infracción penal, la insuficiencia de las medidas de seguridad obligatorias en la fase de almacenamiento, de armas cuya tenencia requiera licencia ""E"", ¿de qué infracción administrativa se trata?";Grave;Leve;Muy grave;A
+296;;"Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de circulación, de un arma cuya tenencia requiera licencia ""E"", ¿de qué infracción administrativa se trata?";Grave;Leve;Muy grave;A
+297;;"Si no constituye infracción penal, la insuficiencia de las medidas de seguridad obligatorias en la fase de circulación de un arma cuya tenencia requiera licencia ""E, ¿de qué infracción administrativa se trata?";Grave;Leve;Muy grave;A
+298;;Si no constituye infracción penal, la insuficiencia de las medidas de seguridad obligatorias en la fase de almacenamiento por particulares en domicilio, de un arma larga rayada, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+299;;Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de almacenamiento por particulares en domicilio, de un arma larga rayada, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+300;;Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de almacenamiento por particulares en el lugar de uso, de un arma larga rayada, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+301;;Si no constituye infracción penal, la insuficiencia de las medidas de seguridad obligatorias en la fase de almacenamiento por particulares en domicilio, de un arma larga de ánima lisa, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+302;;Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de almacenamiento por particulares en domicilio, de un arma larga de ánima lisa, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+303;;Si no constituye infracción penal, la omisión de las medidas de seguridad obligatorias en la fase de almacenamiento por particulares en el lugar de uso, de un arma larga de ánima lisa, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+304;;Si no constituye infracción penal, el impedimento para que las Autoridades competentes, realicen cuantos controles sean necesarios relativos a la tenencia de un arma, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+305;;Si no constituye infracción penal, el impedimento para que las Autoridades competentes, realicen cuantos controles sean necesarios relativos a la utilización de un arma, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+306;;Si no constituye infracción penal, el impedimento para que las Autoridades competentes, realicen cuantos controles sean necesarios relativos al almacenamiento de un arma, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+307;;Si no constituye infracción penal, la adquisición de armas de la 2ª.2 y 3ª 2 por particulares, sin tener las autorizaciones o licencias pertinentes, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+308;;Si no constituye infracción penal, la tenencia de armas de la 2ª.2 y 3ª 2 por particulares, sin tener las autorizaciones o licencias pertinentes, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+309;;Si no constituye infracción penal, la cesión de armas de la 2ª.2 y 3ª 2 por particulares, sin tener las autorizaciones o licencias pertinentes, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+310;;Si no constituye infracción penal, la enajenación de armas de la 2ª.2 y 3ª 2 por particulares, sin tener las autorizaciones o licencias pertinentes, ¿De qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+311;;Si no constituye infracción penal, la alegación de datos falsos para obtener las licencias pertinentes, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+312;;Si no constituye infracción penal, el uso de cualquier arma de fuego reglamentaria, con omisión de las medidas o precauciones obligatorias para garantizar la seguridad de las personas o cosas, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+313;;Si no constituye infracción penal, el uso de cualquier arma de fuego reglamentaria, con insuficiencia de las medidas o precauciones obligatorias para garantizar la seguridad de las personas o cosas, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+314;;Si no constituye infracción penal, portar armas de cualquier clase en establecimientos públicos, salvo que estuvieren habilitados, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+315;;Si no constituye infracción penal, portar armas de cualquier clase en lugares de reunión salvo que estuvieren habilitados, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+316;;Si no constituye infracción penal, portar armas de cualquier clase en lugares de concentración, salvo que estuvieren habilitados, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+317;;Si no constituye infracción penal, portar armas de cualquier clase en lugar de recreo, salvo que estuviere habilitado, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+318;;Si no constituye infracción penal, portar armas de cualquier clase en lugar de esparcimiento, salvo que estuviere habilitado, ¿de qué infracción administrativa se trata?;Grave;Leve;Muy grave;A
+319;;¿Qué tipo de infracción constituye la tenencia de un arma larga rayada de la categoría 2ª.2 en el domicilio careciendo de armero o caja fuerte para su custodia?.;Infracción Leve;Infracción Muy Grave;Infracción Grave;C
+320;;La tenencia de una escopeta con la Licencia caducada hace tan sólo 20 días constituye una infracción...;Grave.;Leve porque es poco tiempo desde que ha caducado.;No es ninguna infracción porque no me he dado cuenta y ya acudiré a la Intervención para renovarla.;A
+321;;La alegación de un domicilio en el que no resido para la documentar una escopeta, es una infracción...;Leve.;No es ninguna infracción.;Grave.;C
+322;;La negativa a presentar un rifle y sus documentos a un/una Policía Nacional cuando nos lo requiere, es una infracción...;Muy Grave.;No es ninguna infracción puesto que sólo las debo presentar en la Intervención de Armas de la Guardia Civil o a alguno/a de sus agentes.;Grave.;C
+323;;¿Qué sanción pecuniaria puede imponer la autoridad competente por una infracción grave al Reglamento de Armas?;Multa de 30050′61 a 601012′10;Multa de 300′51 a 30050′61;Multa de hasta 300′51;B
+324;;Si no constituye infracción penal, la adquisición de ballestas por particulares, sin tener las autorizaciones o licencias pertinentes ¿de qué infracción administrativa se trata?;Muy grave.;Grave.;Leve.;C
+325;;Si no constituye infracción penal, la tenencia de ballestas por particulares, sin tener las autorizaciones o licencias pertinentes ¿de qué infracción administrativa se trata?;Leve.;Grave.;Muy grave.;A
+326;;Si no constituye infracción penal, la cesión de ballestas por particulares, sin tener las autorizaciones o licencias pertinentes ¿de qué infracción administrativa se trata?;Leve.;Grave.;Muy grave.;A
+327;;Si no constituye infracción penal, la enajenación de ballestas por particulares, sin tener las autorizaciones o licencias pertinentes ¿de qué infracción administrativa se trata?;Muy grave;Leve.;Grave.;B
+328;;Si no constituye infracción penal, el incumplimiento de dar cuenta a la Guardia Civil de la destrucción de la documentación de un arma, ¿De qué infracción administrativa se trata?;Leve;Muy grave;Grave;A
+329;;Si no constituye infracción penal, el incumplimiento de dar cuenta a la Guardia Civil de la pérdida de la documentación de un arma, ¿De qué infracción administrativa se trata?;Leve;Muy grave;Grave;A
+330;;Si no constituye infracción penal, el incumplimiento de dar cuenta a la Guardia Civil de la sustracción de la documentación de un arma, ¿De qué infracción administrativa se trata?;Leve;Muy grave;Grave;A
+331;;Si no constituye infracción penal, el incumplimiento de realizar las declaraciones obligatorias, ¿De qué infracción administrativa se trata?;Leve;Muy grave;Grave;A
+332;;La omisión de la revistas constituye una infracción...;Grave.;Leve.;Muy Grave;B
+333;;¿Qué sanción pecuniaria puede imponer la autoridad competente por una infracción leve al Reglamento de Armas?;Multa de 3005′07 a 6010′12 euros.;Multa de 300'51 a 3005'06 euros.;Multa de hasta 300′51 euros.;C
 334;;¿Qué implica la retirada de las armas?;La desposesión de las mismas y la prohibición de la adquisición y tenencia de otras.;El depósito del arma para subastarla.;No hacer uso del arma durante un tiempo.;A
 335;;Señale la opción correcta de las siguientes propuestas:;Es lícito llevar o usar armas en una manifestación de personas por motivos de seguridad.;Puedo adquirir una escopeta de caza para poder defenderme en una casa de campo.;Se considera ilícito el hecho de llevar o usar armas los concurrentes a establecimientos públicos o lugares de reunión.;C
 336;;Tengo una escopeta de caza y la dedico solamente para la caza del conejo, por lo que decido recortar en mi casa la longitud de los cañones en diez centímetros para que se abra mejor el tiro, ¿puedo hacerlo?;No;Sí, con autorización del/la Delegado/a del Gobierno.;Sí puedo porque diez centímetros de cañón es muy poco y no afecta al arma.;A
-337;;Si me sorprende la Autoridad con un cargador para arma corta de 25 cartuchos, sin la autorización pertinente. ¿Qué conlleva a parte de la incoación del correspondiente expediente sancionador?;Retirada de todas las licencias de armas que posea.;Incautación de los cargadores.;Ambas respuestas son correctas.;C
-338;6;¿Es cierto que el Reglamento de Armas contempla que la reparación de armas de fuego se hará solamente por industrias que las hubiesen fabricado o por armeros autorizados por la Intervención de Armas de la Guardia Civil...?;Cierto.;Falso.;Es indiferente.;A
+337;;Si me sorprende la Autoridad con un cargador para arma corta de 25 cartuchos, sin la autorización pertinente. ¿Qué conlleva a parte de la incoación del correspondiente expediente sancionador?;Retirada de todas las licencias de armas que posea.;Incautación de los cargadores.;Ambas son correctas.;C
+338;6;¿Es cierto que el Reglamento de Armas contempla que la reparación de armas de fuego se hará solamente por industrias que las hubiesen fabricado o por armeros autorizados por la Intervención de Armas de la Guardia Civil, con establecimientos abiertos e inscritos en un registro de la citada Intervención?;Cierto.;Falso.;Es indiferente.;A
 339;;¿Qué documento será aportado al armero, cuando se le entregue un arma de fuego para reparación?;La Licencia o Autorización de armas.;La Guía de Pertenencia o la Guía de Circulación en su caso.;La Guía de Pertenencia y la Licencia de Armas.;B
 340;;¿Qué destino se le dará a la Guía de pertenencia de un arma de fuego que ha sido reparada?;Se devolverá al/la propietario/a del arma;Se hará una nueva guía haciendo constar que ha sido reparada;Se destruirá;A
 341;;¿Puede llevar un arma de fuego personalmente el/la titular de la misma para su reparación?;No;Algunas veces;Sí;C
-342;;Cuando el arma a reparar proceda de una localidad distinta a la de ubicación del establecimiento del armero y no la lleva personalmente su propietario. ¿Qué documento deberá sustituir a la Guía de Pertenencia?:;Tan solo una nota del propietario;Guía de Circulación;Licencia de Armas;B
-343;;¿Es necesario que los armeros lleven un libro registro de armas reparadas?;Sí;No;Solo cuando se reparen armas de la 1ª categoría;A
-344;;¿Podría realizar un armero autorizado la reparación de un arma que no se le presente con su correspondiente guía de pertenencia o de circulación?;Sí, siempre que conozca al propietario;Sí, si el arma es de la 3ª categoría;No;C
-345;;¿Debe el armero anotar en su libro registro el número de la guía de pertenencia o de circulación que acompañe al arma entregada para reparar?;Sí;No;Solo para armas de la 1ª categoría;A
-346;;Las armas de fuego, ¿deben pasar alguna prueba en un banco oficial de pruebas?;No, no es obligatorio;Sí, antes de su puesta en el mercado;Solo las armas de la 1ª categoría;B
-347;;¿Qué armas de fuego han de ser presentadas necesariamente a un Banco Oficial de Pruebas?;Todas las armas de fuego;Las que hayan sufrido transformaciones o reparaciones de sus piezas fundamentales;Solo las armas de la 1ª y 2ª categoría;B
-348;;¿Es obligatorio presentar el arma al Banco Oficial de Pruebas si se ha sustituido el cañón?;Sí;No;Solo si el propietario lo desea;A
-349;;¿Es obligatorio presentar el arma al Banco Oficial de Pruebas si se ha sustituido el cerrojo?;Sí;No;Solo si el armero lo estima conveniente;A
-350;;¿Quién debe presentar las armas al Banco Oficial de Pruebas tras una reparación de piezas fundamentales?;El propietario;El armero que realizó la reparación;La Guardia Civil;B
-351;;¿Debe enviarse al Banco Oficial de Pruebas una escopeta a la que se le han recortado los cañones?;Sí;No, por ser una modificación prohibida a particulares;Solo si se va a utilizar para cazar;B
-352;;¿Qué documentos deben acompañar a las armas que se envíen al Banco Oficial de Pruebas?;Guía de circulación y guía de pertenencia;Solo la guía de pertenencia;La licencia de armas;A
-353;;¿Es obligatoria la prueba de armas de fuego extranjeras en España?;No, nunca;Sí, si no llevan punzones de pruebas reconocidos en España;Solo las de la 1ª categoría;B
-354;;¿Qué se entiende por punzón de un Banco de Pruebas?;La marca grabada en el arma que acredita haber superado las pruebas de seguridad;El número de serie del arma;La marca del fabricante;A
-355;;¿Dónde se depositarán las armas de fuego cuyos titulares hayan fallecido?;En el Ayuntamiento;En la Intervención de Armas de la Guardia Civil;En una armería autorizada;B
-356;;¿En qué plazo deben depositarse las armas por fallecimiento del titular?;En cuanto se tenga conocimiento del fallecimiento;A los seis meses;Al año;A
-357;;¿Qué plazo tienen los herederos para dar un destino legal a las armas depositadas por fallecimiento?;Tres meses;Un año;Cinco años;B
-358;;¿Qué destinos legales pueden dar los herederos a las armas depositadas?;Transferirlas a un tercero con licencia;Inutilizarlas o recuperarlas si obtienen licencia;Ambas son correctas;C
-359;;¿Qué ocurre con las armas depositadas por fallecimiento si transcurre un año sin que los herederos le den destino?;Se las queda el Estado;Salen a pública subasta;Se destruyen;B
-360;;¿Dónde se depositarán las armas cuando a su titular le sea revocada la licencia?;En la Intervención de Armas de la Guardia Civil;En su domicilio bajo llave;En el Juzgado;A
-361;;¿Qué plazo hay para depositar las armas cuando se caduca la licencia y no se renueva?;Inmediatamente;Quince días;Un mes;A
-362;;¿Pueden depositarse las armas en una armería autorizada en lugar de en la Intervención de Armas?;Sí, con autorización de la Intervención de Armas;No, nunca;Solo si el arma es nueva;A
-363;;¿Quién corre con los gastos de envío de las armas al Banco de Pruebas?;El solicitante de la prueba (armero o fabricante);El Estado;La Guardia Civil;A
-364;;¿Qué ocurre si un arma no supera las pruebas de seguridad en el Banco de Pruebas?;Se inutiliza o se devuelve para corregir defectos si es posible;Se vende más barata;Se regala al museo;A
-365;;¿Es obligatorio depositar las armas de fuego de la 1ª categoría si el titular no tiene licencia B en vigor?;Sí;No;Solo si vive en ciudad;A
-366;;¿En qué mes se subastan las armas depositadas?;En los meses que determine la Dirección General de la Guardia Civil;Todos los meses;Solo en diciembre;A
-367;;¿Se pueden comprar armas en las subastas de la Guardia Civil?;Sí, personas con la licencia correspondiente para el arma que adquieren;Cualquier persona mayor de edad;Solo los armeros;A
-368;;¿Qué ocurre con las armas que no se adjudican en la subasta?;Se destruyen (se reducen a chatarra);Se vuelven a subastar al mes siguiente;Se regalan;A
-369;;¿Qué se hace con el importe de la venta de un arma en subasta?;Se entrega al dueño o herederos previa deducción de gastos;Se lo queda la Guardia Civil;Se ingresa en el Tesoro Público;A
-370;;¿Pueden los particulares asistir a las subastas de armas?;Sí, si poseen licencia de armas;No, es solo para profesionales;Solo si son parientes del dueño;A
-371;;¿Qué armas se destruyen obligatoriamente sin salir a subasta?;Las armas prohibidas y las armas blancas prohibidas;Todas las pistolas;Ninguna;A
-372;;¿Quién preside la mesa de las subastas de armas?;El/La Jefe de la Comandancia de la Guardia Civil o persona en quien delegue;El/La Alcalde/sa;Un Juez;A
-373;;¿En qué estado se entregan las armas compradas en subasta?;En el estado en que se encuentren, sin garantía de funcionamiento;Revisadas y con garantía;Nuevas;A
-374;;¿Es necesario obtener guía de pertenencia para un arma comprada en subasta?;Sí, antes de retirarla del depósito;No, vale el recibo de la subasta;A los seis meses;A
-375;;¿Se pueden probar las armas antes de la subasta?;No, solo se pueden examinar visualmente;Sí, en un campo de tiro anexo;Solo los armeros;A
-376;;¿Cuál es la finalidad del depósito de armas?;Garantizar la seguridad y el control de las armas sin dueño legítimo o licencia;Almacenar armas para el ejército;Cobrar tasas de almacenaje;A
-377;;¿Quién es el responsable de la custodia de las armas depositadas en la Intervención?;La Guardia Civil;El Ministerio de Defensa;El dueño del arma;A
-378;;¿Pueden los herederos vender el arma depositada a una armería?;Sí, dentro del plazo de un año;No, debe ir a subasta;Solo si el arma es de caza mayor;A
-379;;¿Qué documento acredita el depósito de un arma?;Un recibo o acta de depósito;La propia guía de pertenencia;No se da ningún documento;A
-380;;¿Se pueden depositar armas para su inutilización?;Sí;No;Solo si son de la 1ª categoría;A
-381;;¿Es gratuita la estancia de las armas en el depósito de la Guardia Civil?;Sí, siempre;Solo durante el primer año en caso de fallecimiento;No, se paga desde el primer día;B
-382;;¿Quién certifica la inutilización de un arma de fuego?;El Banco de Pruebas o la Intervención de Armas según el caso;El dueño;El Alcalde;A
-383;;¿Qué marca se les pone a las armas inutilizadas?;Un punzón específico de inutilización;Una X roja;No se les pone nada;A
-384;;¿Pueden volver a ponerse en funcionamiento las armas inutilizadas?;Sí, reparándolas;No, la inutilización debe ser irreversible;Solo con permiso del Ministro;B
-385;;¿Qué ocurre si se intenta rehabilitar un arma inutilizada?;Es una infracción grave o delito según el caso;No pasa nada si se hace bien;Se le da una nueva guía;A
-386;;¿Es obligatorio depositar las armas de concurso (licencia F) si se pierde la condición de tirador deportivo?;Sí;No;Solo si se tienen más de dos armas;A
-387;;¿Qué autoridad ordena la destrucción de las armas depositadas que no han sido adjudicadas?;El/La Jefe de la Comandancia de la Guardia Civil;El Ministerio de Cultura;La Policía Local;A
-388;;¿Puede un particular llevar un arma de su propiedad al Banco de Pruebas?;Sí, para su legalización si es extranjera o tras reparación;No, solo los armeros;Solo si es militar;A
-389;;¿Se pueden subastar armas de la 1ª categoría?;Sí;No, se destruyen siempre;Solo a museos;A
-390;;¿Qué documentos se exigen para retirar un arma de la subasta?;Licencia de armas correspondiente y pago de la adjudicación y tasas;DNI solamente;Licencia de caza;A
-391;;¿Cómo se realiza la destrucción de las armas?;Mediante fundición o corte transversal (reducción a chatarra);Enterrándolas;Tirándolas al mar;A
-392;;¿Pueden las armas de la 4ª categoría (aire comprimido) ser depositadas en la Guardia Civil?;Sí, en los casos previstos legalmente;No, se llevan al Ayuntamiento;Solo si son muy potentes;A
-393;;¿Quién debe firmar el acta de entrega para la reparación de un arma?;El armero y el titular o su representante;Solo el armero;La Guardia Civil;A
-394;;¿Es obligatorio punzonar el cañón sustituido?;Sí, por el Banco de Pruebas;No es necesario;Solo si es de un rifle;A
-395;;¿Qué ocurre con la guía de pertenencia durante la subasta?;Se anula y se archiva;Se le entrega al nuevo dueño;Se queda pegada al arma;A
-396;;¿Se pueden depositar armas de guerra en la Intervención de Armas?;Sí;No, su depósito corresponde a las autoridades militares;Solo si están inutilizadas;B
-397;;¿Qué sucede con las armas que han sido utilizadas en un delito?;Quedan a disposición de la Autoridad Judicial;Se subastan inmediatamente;Se devuelven al dueño;A
-398;;¿Qué fin se le dará a un arma depositada en la Intervención de Armas y que transcurridos los plazos reglamentarios no ha sido transferida?;Se entregará al museo de armas del Ejército;Se destruirán.;Se alquilará a persona en posesión de licencia de armas;B
-399;;En las importaciones, las armas llegadas a un aeropuerto que no fuesen retiradas por sus destinatarios/as después de despachadas por las aduanas, ¿cuánto tiempo estarán depositadas como máximo?;Durante un año.;Durante seis meses.;Durante cinco meses.;B
-400;;En las importaciones, las armas llegadas a un aeropuerto que no fuesen retiradas... ¿qué fin le será dado a dichas armas?;Se venderán.;Serán devueltas al país de origen.;Serán depositadas en la Intervención de Armas y Explosivos.;C
-401;;¿Qué destino se dará a un arma que tiene un valor acreditado como patrimonio histórico en el caso de que haya transcurrido un año depositada?;Se enajenarán en pública subasta, pero el Estado podrá ejercitar el derecho de tanteo.;Se destruirá.;Se enviará a un museo militar.;A
-402;7;¿En la Categoría 6ª.2 se encuentran las armas de fuego cuyo modelo o año de fabricación sean anteriores al 1 de enero de 1899...? ;Cierto. ;Falso. ;Es indiferente. ;A
-403;;Según el artículo 107.c), para el uso de armas de avancarga y demás de la cat. 6.2 se precisará certificado de banco de pruebas y... ;La correspondiente Licencia de armas. ;La Licencia especial de armas. ;La obtención de una autorización especial. ;C
-404;;¿Qué se entiende por arma antigua? ;Arma con ornamentación de materiales nobles o diseño especial. ;Arma de fuego portátil que utiliza munición calibre flobert. ;Arma de fuego cuyo modelo o año de fabricación es anterior al 1 de enero de 1890. ;C
-405;;Si no se va a usar una reproducción de arma de fuego, solo poseerla como coleccionista, ¿cómo se documentará? ;Mediante una guía especial de coleccionista. ;Mediante la inscripción en un libro-registro de coleccionista. ;Con un certificado del Banco Oficial de Pruebas. ;B
-406;;¿La antigüedad de las armas anteriores a 1890 y sus reproducciones será fijada por la Dirección General de la Guardia Civil? ;Cierto. ;Falso. ;Es indiferente. ;A
-407;;¿Cómo se efectuará la custodia de reproducciones de armas cortas en domicilios particulares? ;Completas en cajas fuertes/armeros con grado de seguridad clase III (UNE EN 1143-1). ;Completas en cajas fuertes grado clase I. ;Completas o sus cierres en cajas fuertes grado clase I. ;A
-408;;¿En qué lugares se podrán utilizar las armas antiguas, reproducciones y asimiladas susceptibles de hacer fuego? ;Excepcionalmente en campos, galerías o polígonos controlados con autorización especial. ;Únicamente en polígonos de tiro de concurso. ;En todo caso para la práctica de la caza mayor. ;A
-409;;¿Qué se entiende por reproducción de un arma de fuego? ;Un arma que es copia de otra, reuniendo características de aptitudes. ;Copia de otra original reuniendo todas sus características, aptitudes y posibilidades de uso. ;Copia de original que no reúne sus características ni posibilidades de uso. ;B
-410;;¿Qué es una réplica de un arma de fuego? ;Objeto que por apariencia física o características externas puede inducir a confusión. ;Arma similar a otra original que no reúne las mismas aptitudes. ;Arma igual a otra original pero sin sus mismas aptitudes de uso. ;A
-411;;¿Qué tipo de munición deberán utilizar las reproducciones de armas de fuego antiguas? ;Munición metálica de fabricación actual del mismo calibre. ;Munición con pólvora negra, y del calibre de las mismas. ;Munición con pólvora sin humo. ;B
-412;;¿Se podrá adquirir munición para el uso de las reproducciones de armas de fuego cortas antiguas? ;Sólo podrán adquirirse 100 cartuchos anuales por arma corta. ;Podrán adquirirse 150 cartuchos anuales por arma corta. ;Sólo podrán adquirirse 200 cartuchos anuales por arma corta. ;A
-413;;¿Se podrá tener en depósito munición para reproducciones de armas de fuego largas antiguas? ;Podrá tener en depósito 250 cartuchos. ;Podrá tener en depósito hasta 1000 cartuchos. ;En ningún caso podrá tener en depósito más de 200 cartuchos. ;C
-414;;¿Cuándo comenzó el uso del cartucho de pólvora de percusión central? ;1550 a 1840. ;1868 en adelante. ;1845 a 1925. ;B
-415;;¿Cuál fue el primer ejército del mundo dotado con revólveres? ;El Ejército Español. ;El Ejército Norteamericano. ;El Ejército Francés. ;A
-416;;¿Primera arma de repetición con cartucho metálico reglamentaria en el Ejército Español? ;El revólver sistema Lafaucheaux. ;El revólver Colt. ;El revólver Remington. ;C
-417;;Respecto a armas retiradas por infracción a la Ley de Caza, si se acuerda su devolución... ;Estarán depositadas en la Intervención máximo un mes. ;Si tras un mes de la notificación no se retiran, serán destruidas. ;Ambas son correctas. ;C
-418;;¿Qué entendemos por munición de bala explosiva? ;Munición de uso civil con balas que explotan por impacto. ;Munición de uso militar con balas que contienen una carga que explota por impacto. ;Ninguna es correcta.;B
-419;;¿Cuál de las siguientes afirmaciones es cierta? ;La munición es un cartucho incluyendo la vaina. ;La vaina no está incluida en la parte de un cartucho. ;Se considera munición a los cartuchos a partir de 9 mm. ;A
-420;;Consideramos que un arma ha sido inutilizada cuando... ;Al menos un componente esencial haya sido inutilizado. ;Al menos dos componentes esenciales hayan sido inutilizados. ;Cuando todos sus componentes esenciales hayan sido inutilizados. ;C
-421;;¿Puede un arma de un solo tiro llevar adaptado un cargador? ;No, nunca. ;Si, si solo se hace uso de tiro a tiro. ;Dependerá del momento. ;A
-422;;¿Es coleccionista quien solo reúne componentes esenciales de las armas? ;No, al menos debe coleccionar un arma completa. ;Sí, es correcto. ;Solo si tiene especial vocación. ;B
-423;;El hecho de transformar un arma de guerra en otra civil se denomina... ;Actividad lucrativa. ;No está permitido. ;Desmilitarización. ;C
+342;;Cuando el arma a reparar proceda de una localidad distinta a la de ubicación del establecimiento del armero y no la lleva personalmente su propietario. ¿Qué documento deberá sustituir a la Guía de Pertenencia?:;Tan solo una nota con las deficiencias que tiene el arma, si se manda por una agencia de transportes.;Una guía de circulación expedida por la Intervención de Armas de origen o demarcación del/la propietario del arma;Si la lleva personalmente el/la propietario/a, necesita igualmente guía de  circulación.;B
+343;;¿ Qué requisito será imprescindible para poder repa rar armas de fuego?:;Ser un técnico en la reparación de armas y real izarlo de forma habitual.;Tener la condición de armero y establecimiento abierto e inscrito en un registro que llevará la Intervención de Armas de su residencia.;Ser titular de una armería debidamente autoriza da por la Autoridad  Gubernativa.;B
+344;;¿Es imprescindible obtener la condición de armero p ara dedicarse a la reparación de armas de fuego?;Algunas veces;Sí;Cuando se trate de armas blancas sí es necesario o;B
+345;;¿Las industrias que fabrican armas de fuego están autorizadas a reparar las mismas?;No, si la avería es muy grave;Sí;Depende del tipo de arma.;B
+346;;¿Se admitirá un arma de fuego para su reparación si  no lleva la Guía de pertenencia?;Sí, cuando esté en muy mal estado;No, en ningún caso.;Sí, siempre que dicho documento se haya sustituido por una guía de circulación.;C
+347;;¿Puede el titular de un arma de fuego llevarla personalmente a un establecimiento autorizado para su reparación?;No;Sí, si va acompañada de la Guía de Pertenencia.;Sí , si va acompañada de la Guía de Pertenencia y Licencia correspondiente.;C
+348;;La reparación de armas se hará solamente:;Por las industrias que las hubiesen fabricado.;Por armeros/as, que autorizados/as por Intervención de Armas cuenten con establecimiento abierto al público y estén inscritos en el correspondiente registro.;Las dos respuestas anteriores (A y B) son válidas .;C
+349;;No se admitirá un arma a reparar si no va acompañada de:;Guía de Pertenencia.;Guía de Circulación.;La A) y la B) son correctas.;C
+350;;¿Donde quedará la Guía de Pertenencia del arma que se esté reparando?:;Será devuelta al propietario del arma una vez s e tomen los datos del arma por el armero.;Quedará en poder del/la armero/a mientras dure la reparación del arma.;No es necesario, en este caso, que el arma vaya  acompañada por la Guía de Pertenencia.;B
+351;;¿Cuándo deberá ser entregada a su titular la guía de pertenencia de un arma llevada a reparar a una armería?;Una vez presentada el arma en la armería.;Una vez que el/la Armero/a ha tomado nota de la misma.;En el momento de retirar el arma de la armería .;C
+352;;Además del arma, ¿qué entregará al armero/a el/la titular que le deje su arma para reparar?:;La Guía de Pertenencia.;La licencia de armas.;No es preciso que le entregue nada.;A
+353;;Sin conocimiento de la Intervención de Armas y Explosivos de la Guardia Civil ¿en qué casos está permitida la reparación que suponga modificación de las características, estructura o calibre de un arma de caza ?;En cualquier caso.;En ningún caso.;Es indiferente.;B
+354;;¿Puede llevarse a cabo una reparación que suponga modificación del calibre de un arma?:;Sí, si es de caza y esté aprobado por un banco  oficial de pruebas y notificado a la Intervención de;Sí, siempre que las variaciones hayan sido realizadas por los propios fabricantes del arma y hayan entregado esta documentación técnica en la Intervención de Armas de la demarcación del establecimiento.;Son correctas las dos respuestas anteriores .;C
+355;;¿En qué casos se permitirá que la reparación del arma suponga la modificación sustancial de sus características?;Con conocimiento del Ministerio de Cultura;Con conocimiento de la Intervención de Armas y apro bación en su caso del Ministerio de Defensa o del Banco Oficial de Pruebas.;Con conocimiento de la Intervención de Armas y  Ministerio de Hacienda.;B
+356;;¿Para modificar el calibre de un arma es preciso la  aprobación en su caso del Ministerio de Defensa?;Sí, siempre que se trate de armas de la 1ª y 2 ª categoría.;Sí, siempre que se trate de armas de guerra .;Las dos respuestas son correctas.;B
+357;;¿Puede cambiarse la estructura de un arma?.;Sí, siempre que lo haga un armero autorizado y por un motivo razonado.;Sí,  previo conocimiento de la Intervención de Armas de la Guardia Civil y aprobación en su caso del Ministerio de Defensa o de un Banco Oficial de Pruebas según el arma de que se trate.;En ningún caso.;B
+358;;¿Puede repararse un arma de caza, de tal forma que suponga una modificación sustancial de la misma?;Sí, con conocimiento y aprobación de los organismos competentes.;Nunca.;Solo en caso de que la reparación fuera efectuada por un herrero.;A
+359;;Los/Las fabricantes y comerciantes autorizados/as y  sus representantes, ¿a quiénes podrán dejar a prueba las armas de fuego?;A personas mayores de edad.;A personas que posean la correspondiente licencia .;A personas interesadas en la compra de las armas.;B
+360;;¿Quiénes podrán dejar a prueba las armas de fuego?;Los/Las fabricantes y comerciantes autorizados/as;Los/Las representantes de los fabricantes y comerciantes autorizados.;Las dos anteriores son correctas.;C
+361;;Los/Las comerciantes autorizados/as, ¿dejarán a probar un  arma de fuego una persona sin Licencia de Armas?;Sí;No.;Sí, con autorización del/de la Armero/a;B
+362;;¿Qué plazo de validez tendrá el documento expedido por un comerciante autorizado  para probar un arma de fuego en la misma localidad de residencia del interesado en comprarla?;24 horas;5 días;7 días;B
+363;;En el documento que expida un fabricante a favor de  la persona que este interesada en adquirir un arma  de fuego, ¿podrá omitir el lugar donde se va a efectuar la prueba con dicha arma?;Siempre;No;No tiene importancia;B
+364;;¿Cualquier titular de la licencia de armas correspondiente y en vigor, podrá probar las armas de fuego  que desea adquirir?;Sí;Nunca;Con autorización del/de la Subdelegado/a del Gobierno;A
+365;;La persona interesada en comprar un arma, ¿puede probarla antes de adquirirla en galería autorizada?;No, en ningún caso.;Sí, pero debe probarla tan solo el viajante.;Sí.;C
+366;;Una persona que posee licencia de armas correspondiente, ¿puede probar un arma de caza?;Si, en caso de que se la deje un comerciante autorizado.;Solo en caso de que sea titular de una licencia de caza.;Las dos anteriores son correctas.;A
+367;;¿Qué será indispensable, para que una persona interesada en adquirir un arma pueda probarla?:;Que le acompañe el comercial o fabricante.;Que tenga una autorización del vendedor.;Estar en posesión de la correspondiente licencia .;C
+368;;¿Qué datos deberá contener el documento, de carácter personal e intransferible, que emite el/la fabricante, comerciante o sus representantes a la persona que vaya a realizar la prueba de un arma de fuego interesada en adquirirla?:;Denominación expresa del lugar en donde se deben realizar las pruebas.;Reseña del arma, la licencia y el lugar de las pruebas, plazos de validez y estar visado por la Intervención de Armas.;Que se reseñe un plazo de tres días para realizar la prueba.;B
+369;;¿Qué carácter tiene el documento que el/la fabricante o comerciante expide a favor de la persona interesada en adquirir un arma de fuego que quiere probar?;Genérico, para cualquier posible adquirente.;Transferible a un tercer posible adquirente, siempre que posea licencia de armas.;Personal e intransferible .;C
+370;;Un fabricante autorizado ha dejado en prueba un arma a un particular que desea adquirirla y que posee la licencia correspondiente, ¿qué le debe expedir el fabricante?;La guía de pertenencia.;La factura del arma.;Un documento de carácter personal e intransferible visado por la Intervención de Armas y Explosivos.;C
+371;;¿Por quién será visado el documento de autorización  para la prueba de un arma de fuego expedido a favor de un/una particular por un/una fabricante autorizado?;Intervención de Armas.;Comerciante.;No es necesario este requisito.;A
+372;;El documento de autorización para la prueba de un arma de fuego, a favor de la persona interesada en adquirirla, ¿en qué modelo de documento se formalizará?;En triplicado ejemplar.;Por escrito.;Conforme a un modelo oficial .;C
+373;;¿Donde se podrán probar las armas de fuego, además de en los campos de las Federaciones deportivas o en los polígonos, campos o galerías de tiro?;En los terrenos privados.;En los terrenos que cuenten con autorización de la autoridad local.;En los terrenos cinegéticos controlados.;C
+374;;¿Se podrán probar las armas de fuego en Galerías de  Tiro?;No;No, si no se tiene autorización del/de la Alcal de/sa;Sí;C
+375;;¿Se podrá probar un arma de fuego en la vía pública ?;Solo en caso de que no haya personas en la misma.;Si es de noche y en descampado.;Nunca;C
+376;;Con motivo del  fallecimiento de una persona que posea armas de fuego, los/las herederos/ras o albaceas, ¿Cuándo deberán depositar las armas en la  Intervención de Armas?;Al día siguiente del fallecimiento.;Tan pronto como tengan conocimiento de la obligación de hacerlo y en cualquier caso dentro de los 6 meses siguientes al fallecimiento.;Será determinado por el/la Interventor/a de Armas y Explosivos de la residencia del fallecido/a.;B
+377;;¿Es cierto que el Reglamento de Armas dispone que al cesar en la habilitación para la tenencia legal de las armas, el/la interesado/a, deberá depositarlas inmediatamente?;Cierto.;Falso.;Solo en caso de armas de caza.;A
+378;;Al cesar en la habilitación para la tenencia legal de las armas ¿En qué momento el/la interesado/a deberá depositar las armas con las correspondientes guías de pertenencia?;Dentro del plazo de 10 días desde que cesó en dicha habilitación.;Inmediatamente.;Quedará exento del depósito si comunica tal vicisitud a la Intervención de Armas y adopta las suficientes medidas de seguridad para evitar su pérdida o sustracción.;B
+379;;No pasar dos revistas consecutivas de un arma será motivo de retirada de la guía de pertenencia ¿qué d ebe hacerse con el arma?;Guardarla con las suficientes medidas de seguridad.;Depositarla.;Llevar la guía de pertenencia a la Intervenció n de Armas.;B
+380;;¿Qué tiempo permanecerán las armas que se depositen en las Intervenciones de Armas a disposición de los/las herederos/as,  como consecuencia del fallecimiento de sus titulares?;6 meses.;1 año.;2 años.;B
+381;;¿Qué documento acompañará a las armas que se depositen en las Intervenciones de Armas, como consecuencia del fallecimiento de sus titulares?;La Licencia de armas del/de la fallecido/a y el certificado de defunción.;La guía de pertenencia.;La guía de pertenencia, acompañada de certificado de defunción.;B
+382;;En caso de caducidad de la licencia de armas, ¿qué tiempo tendrá para depositarlas?;3 meses;1 año;Inmediatamente;C
+383;;¿Qué documentos acompañarán a las armas de fuego que vayan a ser depositadas?;Las Guías de Pertenencia;La Licencia de Armas;Las Tarjetas de Armas;A
+384;;¿Qué deberá depositar el/la titular de armas de fuego que extraviase la licencia de armas?;Las Armas y las Guías de Pertenencia;Las Guías;No depositará ningún arma;A
+385;;¿Qué deberá depositar el/la titular de armas de fuego que extraviase las Guías de Pertenencia?;La Licencia de Armas;Las Armas que amparan dichas Guías;Licencia de caza;B
+386;;¿Es cierto que el/la titular de un arma de fuego no puede depositarla en la Intervención de Armas y Explosivos para ser subastada?;Cierto .;Falso .;Depende de si el arma es de caza o no.;A
+387;;¿Puede el/la titular de un arma de fuego depositarl a en la Intervención de Armas y Explosivos para ser subastada?;No;A veces;Sí;A
+388;;¿Puede el/la titular de un arma de fuego depositarla en la Intervención de Armas y Explosivos para su reducción a chatarra?;"No; el destino reglamentario de reducción a chatarra es solo en caso de armas depositadas que carezcan de punzones necesarios o sean prohibidas.";A veces;Sí;C
+389;;¿Cuándo procede el depósito de las armas y la retirada y anulación de la guía de pertenencia?;Al no pasar la revista, en una ocasión.;Al no pasar dos revistas consecutivas.;En ningún caso procede el depósito de las armas.;B
+390;;En caso de fallecimiento del/de la titular de un arma, ¿qué deberán hacer los familiares con las armas del fallecido?;Pueden hacer uso de las mismas sin ningún requisito previo.;Depositarlas en la Intervención de Armas;Pasarán a propiedad del hijo mayor de la familia;B
+391;;¿Qué plazo tienen los herederos/as de un arma, depositada en la Intervención de Armas y Explosivos por fallecimiento del/de la titular, para enajenarla?;Una semana;Un año;No hay plazo establecido;B
+392;;En caso de anulación de la guía de pertenencia de un arma ¿qué debe hacerse con el arma?;Depositarla inmediatamente en la Intervención de Armas.;Esperar a que me devuelvan la guía.;Nada;A
+393;;Señale el plazo de que disponen los/las herederos/a s del/de la titular de una escopeta para depositarla en la Intervención de Armas y Explosivos en caso de fallecimiento del/de la titular:;Tan pronto como tenga conocimiento de la obligación de hacerlo.;Dentro de los seis meses siguientes al fallecimiento.;Correctas A) y B);C
+394;;Señale el plazo de que disponen los/las herederos/a s del/de la titular de una escopeta para depositarla en la Intervención de Armas y Explosivos en caso de fallecimiento del/de la titular:;Dentro de los seis meses siguientes al fallecimiento.;Al año del fallecimiento.;Las dos anteriores son correctas.;A
+395;;Una escopeta depositada por infracción a la Ley de Caza,  ¿podrá ser recuperada por su dueño/a?;Sí;No;Algunas veces;A
+396;;¿Qué destino se le dará a las armas depositadas por infracción a la Ley de Caza, cuando los/las titulares de las mismas no deseen recuperarlas?;Venderlas;Depositadas hasta que la Autoridad Judicial disponga de ellas.;Destruirlas;C
+397;;¿Qué destino recibirán las armas que se depositen en las Intervenciones de Armas a disposición de los/las herederos/as,  como consecuencia del fallecimiento de sus titulares y haya transcurrido el plazo reglamentario, sin que las armas hayan sido enajenadas o recuperadas?;Se reducirán a chatarra, si no se ha pedido expresamente que se subasten.;Se destruirán.;Se enajenarán a los armeros/as que lo soliciten.;B
+398;;¿Qué fin se le dará a un arma depositada en la Intervención de Armas y que transcurridos los plazos reglamentarios no ha sido transferida?;Se entregará al museo de armas del Ejército;Se destruirán.;Se alquilará a persona en posesión de licencia  de armas;B
+399;;En las importaciones, las armas llegadas a un aeropuerto que no fuesen retiradas por sus destinatarios /as después de despachadas por las aduanas, ¿cuánto tiempo estarán depositadas como máximo, a disposición del interesado/a?;Durante un año.;Durante seis meses.;Durante cinco meses.;A
+400;;En las importaciones, las armas llegadas a un aeropuerto que no fuesen retiradas por sus destinatarios /as después de despachadas por las aduanas, ¿qué fin le  será dado a dichas armas?;Se venderán.;Serán devueltas al país de origen.;Serán depositadas en la Intervención de Armas y Explosivos.;C
+401;;¿Qué destino se dará a un arma que tiene un valor a creditado como patrimonio histórico en el caso de que haya transcurrido un año depositada?;Se enajenarán en pública subasta;Se le devolverá a su legítimo/a dueño/a;Lo que dictamine la Autoridad Judicial.;A
+402;7;"¿En la Categoría 6ª.2 del artículo 3, del Reglamento de Armas, se encuentran las armas de fuego cuyo modelo o año de fabricación sean anteriores al 1 de enero de 1899, y las reproducciones de las mismas, a menos que
+puedan disparar municiones destinadas a armas de guerra o a armas prohibidas?";Cierto.;Falso.;Es indiferente.;B
+403;;Según se dispone en el artículo 107.c), del Reglamento de Armas, para su uso, las armas largas y cortas de  avancarga y las demás de la categoría 6.2 precisarán la posesión de un certificado de un banco oficial de pruebas para cada arma y …;La correspondiente Licencia de armas.;La Licencia especial de armas.;La obtención de una autorización especial.;C
+404;;¿Qué se entiende por arma antigua?;Arma de fuego que en su ornamentación presenta una peculiaridad distinta a las demás de su clase, en razón de los materiales nobles empleados o de diseño, que le confiere un especial valor.;Arma de fuego portátil que utiliza munición de  calibre flobert.;Arma de fuego cuyo modelo o cuyo año de fabricación es anterior al 1 de enero de 1890.;C
+405;;"Si no se va a hacer uso de una reproducción de un arma de fuego, únicamente se quiere poseer como
+coleccionista ¿Cómo se documentará?";Mediante una guía especial de coleccionista.;Mediante la inscripción en un libro-registro de coleccionista.;Con un certificado del Banco Oficial de Pruebas.;B
+406;;¿La antigüedad de las armas de fuego cuyo modelo o año de fabricación sean anteriores al 1 de enero de  1890,  y las reproducciones de las mismas, a menos que pue dan disparar municiones destinadas a armas de guerra o a  armas prohibidas, será fijada por la Dirección General de la Guardia Civil?;Cierto.;Falso.;Es indiferente.;B
+407;;¿Cómo se efectuará la custodia de las reproducciones de las armas de fuego cortas en los domicilios  particulares?;Guardadas completas en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase III, de la norma UNE EN 1143-1. ;Guardadas completas en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase I, de la norma UNE EN 1143-1.;Guardadas completas, o sus cierres o piezas fundamentales, en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase I, de la norma UNE EN 1143-1.;A
+408;;Las armas de fuego antiguas, sus reproducciones y a similadas, susceptibles de hacer fuego, ¿en qué lug ares se  podrán utilizar?;Excepcionalmente, se podrán utilizar en campos , galerías o polígonos de tiro controlados para prácticas, previa obtención de una autorización especial.;Únicamente en polígonos de tiro de concurso.;En todo caso, se podrán utilizar en la práctica de la caza mayor.;A
+409;;¿Qué se entiende por reproducción de un arma de fuego?;Un arma que es copia de otra, reuniendo características de aptitudes.;"Un arma que es copia de otra original, reuniendo todas sus características, aptitudes y posibilidades
+de uso.";Un arma que es copia de otra original, y no reúne sus características, aptitudes y posibilidades de uso.;B
+410;;¿Qué es una réplica de un arma de fuego?;Objeto que por su apariencia física o características externas puede inducir a confusión sobre su  auténtica naturaleza.;Es un arma que es similar a otra original, y que no reúne las mismas aptitudes de un arma original.;Es un arma igual a otra original, con todas sus características, pero que no tiene las mismas aptitudes y  posibilidades de uso.;A
+411;;¿Qué tipo de munición deberán utilizar las reproducciones de armas de fuego antiguas?;Munición metálica utilizada para las armas de fabricación actual y del mismo calibre.;Munición con pólvora negra, y del calibre de las mismas.;Munición con pólvora sin humo.;B
+412;;¿Se podrá adquirir munición para el uso de las reproducciones de armas de fuego cortas antiguas?;Sólo podrán adquirirse 100 cartuchos anuales por arma corta.;Podrán adquirirse 150 cartuchos anuales por arma corta.;Sólo podrán adquirirse 200 cartuchos anuales por arma corta.;A
+413;;¿Se podrá tener en depósito munición para el uso de  las reproducciones de armas de fuego largas antiguas?;Podrá tener en depósito 250 cartuchos.;Podrá tener en depósito hasta 1000 cartuchos.;En ningún caso podrá tener en depósito un número superior a 200 cartuchos.;C
+414;;El cartucho de pólvora ya se empleaba a mediados del siglo XVI, no obstante, respecto al cartucho de  pólvora de percusión central, ¿Cuándo comenzó su uso?;1550 a 1840.;1868 en adelante.;1845 a 1925.;B
+415;;¿Cuál fue el primer ejército del mundo dotado con revólveres?;El Ejército Español.;El Ejército Norteamericano.;El Ejercito Francés.;B
+416;;¿Cuál fue la primera arma de repetición con cartuch o metálico declarada reglamentaria en el Ejército  Español?;El revólver sistema Lafaucheaux.;El revólver Colt.;El revólver Remington;A
+417;;En relación a las armas retiradas por infracción a la Ley de Caza, si la Autoridad competente acordara la devolución de las mismas....;Las armas estarán depositadas en la Intervención  a disposición de los particulares por un plazo máximo de un mes.;A partir de un mes de la notificación por parte de la Autoridad competente, si no fuesen retiradas por su  propietario serán destruidas;Ambas son correctas;C
+418;;¿Qué entendemos por munición de bala explosiva?;Munición de uso civil con balas que contienen una carga que explota por impacto;Munición de uso militar con balas que contienen una carga que explota por impacto;Ninguna es correcta;B
+419;;¿Cuál de las siguientes afirmaciones es cierta?;La munición es un cartucho incluyendo la vaina.;La vaina no está incluida en la parte de un cartucho;Se considera munición a los cartuchos a partir de 9 mm;A
+420;;Consideramos que un arma ha sido inutilizada, cuando..;Al menos un componente esencial hay sido inutilizado.;Al menos dos componentes esenciales hayan sido inutilizados.;Cuando todos sus componentes esenciales hayan sido inutilizados .;C
+421;;¿Puede un arma de un solo tiro llevar adaptado un cargador?;No, nunca;Si, si solo se hace uso de tiro a tiro;Dependerá del momento.;A
+422;;¿Podemos considerar como coleccionista a una person a que solo reúne componentes esenciales de  las armas?;No, al menos debe de coleccionar un arma completa.;Sí, es correcto;Solo en el caso de que tenga especial vocación;B
+423;;El hecho de transformar un arma de guerra en otra c ivil, lo denominaremos...;Actividad lucrativa;No está permitido.;Desmilitarización .;C
